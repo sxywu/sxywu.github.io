@@ -32,17 +32,19 @@ var App = React.createClass({
     var style = {width, margin: 'auto'};
 
 
-    var sideData = {width: sideWidth - 2 * padding, padding};
-    var bodyData = {
+    var sideStyle = {
+      width: sideWidth - 2 * padding,
+      padding,
+    };
+    var bodyStyle = {
       width: width - sideWidth - 4 * padding,
       padding,
-      labels: this.state.labels,
     };
 
     return (
       <div style={style}>
-        <Sidebar data={sideData} />
-        <Header data={bodyData} />
+        <Sidebar style={sideStyle} labels={this.state.labels} />
+        <Header style={bodyStyle} labels={this.state.labels} />
       </div>
     );
   }

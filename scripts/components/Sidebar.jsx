@@ -2,16 +2,16 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
+var Label = require('./Label.jsx');
+
 var Sidebar = React.createClass({
   render() {
-    var style = {
-      width: this.props.data.width,
-      padding: this.props.data.padding,
+    var style = Object.assign({
       display: 'inline-block',
       textAlign: 'center',
       verticalAlign: 'top',
       cursor: 'pointer',
-    };
+    }, this.props.style);
     var logoStyle = {
       width: '100px',
       height: '100px',
