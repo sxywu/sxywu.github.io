@@ -3,6 +3,10 @@ var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
 var Label = React.createClass({
+  onClick() {
+    this.props.onFilter(this.props.data.id);
+  },
+
   render() {
     var size = 8;
     var style = Object.assign({
@@ -22,7 +26,7 @@ var Label = React.createClass({
     };
 
     return (
-      <span style={style}>
+      <span style={style} onClick={this.onClick}>
         <span style={dotStyle} />
         {this.props.children}
       </span>

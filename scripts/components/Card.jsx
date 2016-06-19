@@ -30,7 +30,7 @@ var Card = React.createClass({
 
     var labelStyle = {margin: '5px 0'};
     var labels = _.map(this.props.data.labels, (label, i) => {
-      return (<Label key={i} style={labelStyle} data={label} />);
+      return (<Label key={i} style={labelStyle} data={label} onFilter={this.props.onFilter} />);
     });
 
     var headerStyle = {

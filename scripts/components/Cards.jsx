@@ -24,7 +24,7 @@ var Cards = React.createClass({
           console.log(i, j, j / cardsPerRow === i)
           return j % cardsPerRow === i;
         }).map(data => {
-          return (<Card key={data.id} style={cardStyle} data={data} />);
+          return (<Card key={data.id} style={cardStyle} data={data}  onFilter={this.props.onFilter}/>);
         }).value();
       var columnStyle = {
         width: cardWidth,
