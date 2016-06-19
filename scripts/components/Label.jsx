@@ -4,7 +4,7 @@ var _ = require('lodash');
 
 var Label = React.createClass({
   render() {
-    var size = 5;
+    var size = 8;
     var style = Object.assign({
       color: this.props.data.color,
       cursor: 'pointer',

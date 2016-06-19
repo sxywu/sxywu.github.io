@@ -21,15 +21,16 @@ var Card = React.createClass({
       padding: 7,
       textAlign: 'center',
       verticalAlign: 'top',
+      cursor: 'pointer',
     }, this.props.style);
     var image = this.props.data.images && 'images/' + this.props.data.images[0];
     var imgStyle = {
       width: this.props.style.width,
     }
 
-    var labelStyle = {margin: '2px 5px'};
+    var labelStyle = {margin: '5px 0'};
     var labels = _.map(this.props.data.labels, (label, i) => {
-      return (<Label key={i} style={labelStyle} data={label}>{label.text}</Label>);
+      return (<Label key={i} style={labelStyle} data={label} />);
     });
 
     var headerStyle = {
@@ -38,9 +39,9 @@ var Card = React.createClass({
 
     return (
       <div style={style}>
-        <h4 className='header' style={headerStyle}>
+        <h3 className='header' style={headerStyle}>
           {this.props.data.title}
-        </h4>
+        </h3>
         <img src={image} style={imgStyle} />
         {labels}
       </div>

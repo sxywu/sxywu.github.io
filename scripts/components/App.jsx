@@ -41,7 +41,7 @@ var App = React.createClass({
   },
 
   render() {
-    var width = 960;
+    var width = 1000;
     var padding = 20;
     var sideWidth = 200 - 2 * padding;
     // var bodyWidth = width - sideWidth - 4 * padding;
