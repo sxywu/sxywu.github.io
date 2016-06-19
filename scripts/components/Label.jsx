@@ -5,12 +5,11 @@ var _ = require('lodash');
 var Label = React.createClass({
   render() {
     var size = 5;
-    var style = {
+    var style = Object.assign({
       color: this.props.data.color,
       cursor: 'pointer',
       display: 'inline-block',
-      margin: '3px 5px',
-    };
+    }, this.props.style);
     var dotStyle = {
       backgroundColor: this.props.data.filled ? this.props.data.color : '#fff',
       border: '2px solid' + this.props.data.color,

@@ -24,8 +24,11 @@ var Sidebar = React.createClass({
       height: '1px',
       backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))',
     };
-    var labels = _.map(this.props.labels, data => {
-      return (<Label data={data}>{data.text}</Label>);
+    var labelStyle = {
+      margin: '2px 5px',
+    }
+    var labels = _.map(this.props.labels, (data, key) => {
+      return (<Label key={key} style={labelStyle} data={data}>{data.text}</Label>);
     });
 
     return (

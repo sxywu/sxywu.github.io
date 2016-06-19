@@ -6,9 +6,7 @@ var Label = require('./Label.jsx');
 
 var Header = React.createClass({
   render() {
-    var style = Object.assign({
-      display: 'inline-block',
-    }, this.props.style);
+    var style = Object.assign({}, this.props.style);
 
     return (
       <div className='header' style={style}>
@@ -17,9 +15,9 @@ Hi, my name is Shirley.
         </h1>
         <h2>
 I'm a software engineer based in the San Francisco Bay Area.
-I like to build <Label data={this.props.labels.silly}>silly</Label> and <Label data={this.props.labels.notsilly}>not-as-silly</Label> data visualizations, for learning and for fun.
+I like to <Label data={this.props.labels.build}>build</Label> silly and not-so-silly data visualizations, for learning and for fun.
 I primarily use <Label data={this.props.labels.d3}>D3.js</Label> and <Label data={this.props.labels.react}>React.js</Label> for my visualizations, and used to use <Label data={this.props.labels.backbone}>Backbone.js</Label> a lot more.
-I've dabbled with Ruby on Rails and Node, and am currently learning Redux.
+I've dabbled with <Label data={this.props.labels.ror}>Ruby on Rails</Label> and Node, and am currently learning Redux.
         </h2>
         <h2>
 I <Label data={this.props.labels.write}>write</Label> once in a while about the things I learn, and give <Label data={this.props.labels.talk}>talks</Label> once in a while too.
