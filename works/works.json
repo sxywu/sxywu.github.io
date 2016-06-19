@@ -38,5 +38,85 @@
     "url": "http://sxywu.github.io/tweety/",
     "ghUrl": "https://github.com/sxywu/tweety",
     "labels": ["build", "d3", "react"]
+  },
+  {
+    "id": "2015",
+    "title": "2015, A Year in Review",
+    "images": ["2015.png"],
+    "startDate": "Jan 15, 2016",
+    "url": "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5",
+    "labels": ["write"]
+  },
+  {
+    "id": "d3reactflux",
+    "title": "On D3, React, and a little bit of Flux",
+    "images": ["d3reactflux.png"],
+    "startDate": "Jul 13, 2015",
+    "url": "https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3#.45ai7qjrd",
+    "labels": ["write", "d3", "react"]
+  },
+  {
+    "id": "d3backbone2",
+    "title": "Marrying Backbone.js and D3.js, a Follow-up",
+    "images": ["d3backbone2.png"],
+    "startDate": "Jul 5, 2014",
+    "url": "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a-follow-up-b6a62a9731e1#.80731q9pi",
+    "labels": ["write", "d3", "backbone"]
+  },
+  {
+    "id": "d3backbone",
+    "title": "Marrying Backbone.js and D3.js",
+    "images": ["d3backbone.png"],
+    "startDate": "May 9, 2013",
+    "url": "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a7c9c124579e#.gmwv0afuq",
+    "labels": ["write", "d3", "backbone"]
+  },
+  {
+    "id": "force",
+    "title": "Understanding the Force",
+    "images": ["force.png"],
+    "startDate": "Jul 22, 2014",
+    "url": "https://medium.com/@sxywu/understanding-the-force-ef1237017d5#.nedspzkwf",
+    "labels": ["write", "d3"]
+  },
+  {
+    "id": "d3backbone2_talk",
+    "title": "Marrying Backbone js and D3 js",
+    "images": ["d3backbone2_talk.png"],
+    "startDate": "Dec 16, 2014",
+    "url": "https://www.youtube.com/watch?v=TqXD0_tGPv8",
+    "labels": ["talk", "d3", "backbone"]
+  },
+  {
+    "id": "d3backbone_talk",
+    "title": "bayd3: d3.js + Backbone.js - 08.22.2013",
+    "images": ["d3backbone_talk.png"],
+    "startDate": "Aug 22, 2013",
+    "url": "https://www.youtube.com/watch?v=Qh0lx1mRpns",
+    "labels": ["talk", "d3", "backbone"]
+  },
+  {
+    "id": "silly_talk",
+    "title": "d3.oakland(): Silly && #DataVizzy 01.12.16",
+    "images": ["silly_talk.png"],
+    "startDate": "Jan 12, 2016",
+    "url": "https://www.youtube.com/watch?v=Tgj8XICtiHw",
+    "labels": ["talk"]
+  },
+  {
+    "id": "product_talk",
+    "title": "Building Data Visualizations for Product",
+    "images": ["product_talk.png"],
+    "startDate": "Apr 25, 2016",
+    "url": "https://www.youtube.com/watch?v=fnp9g29lF8c",
+    "labels": ["talk"]
+  },
+  {
+    "id": "bart_talk",
+    "title": "bayd3: BART strike project",
+    "images": ["bart_talk.png"],
+    "startDate": "Nov 11, 2013",
+    "url": "https://www.youtube.com/watch?v=Zh2aLYPY16M",
+    "labels": ["talk"]
   }
 ]
