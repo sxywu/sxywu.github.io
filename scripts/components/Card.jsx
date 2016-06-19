@@ -14,11 +14,10 @@ var Card = React.createClass({
 
   render() {
     var style = Object.assign({
-      boxShadow: '0 0 5px #999',
-      border: '1px solid #ccc',
+      border: '1px solid #666',
       borderRadius: '3px',
       display: 'inline-block',
-      padding: 7,
+      padding: '15px 10px 20px 10px',
       textAlign: 'center',
       verticalAlign: 'top',
       cursor: 'pointer',
@@ -28,7 +27,7 @@ var Card = React.createClass({
       width: this.props.style.width,
     }
 
-    var labelStyle = {margin: '5px 0'};
+    var labelStyle = {margin: '3px 0 10px 0'};
     var labels = _.map(this.props.data.labels, (label, i) => {
       return (<Label key={i} style={labelStyle} data={label} onFilter={this.props.onFilter} />);
     });
@@ -38,12 +37,12 @@ var Card = React.createClass({
     };
 
     return (
-      <div style={style}>
+      <div className='card' style={style}>
         <h3 className='header' style={headerStyle}>
           {this.props.data.title}
         </h3>
-        <img src={image} style={imgStyle} />
         {labels}
+        <img src={image} style={imgStyle} />
       </div>
     );
   }

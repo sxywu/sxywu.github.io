@@ -26,7 +26,7 @@ var Label = React.createClass({
     };
 
     return (
-      <span style={style} onClick={this.onClick}>
+      <span className='label' style={style} onClick={this.onClick}>
         <span style={dotStyle} />
         {this.props.children}
       </span>
