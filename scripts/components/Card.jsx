@@ -12,6 +12,10 @@ var Card = React.createClass({
     };
   },
 
+  onClick() {
+    window.open(this.props.data.url, '_new');
+  },
+
   render() {
     var style = Object.assign({
       border: '1px solid #666',
@@ -37,7 +41,7 @@ var Card = React.createClass({
     };
 
     return (
-      <div className='card' style={style}>
+      <div className='card' style={style} onClick={this.onClick}>
         <h3 className='header' style={headerStyle}>
           {this.props.data.title}
         </h3>
