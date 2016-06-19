@@ -1,0 +1,42 @@
+[
+  {
+    "id": "80k",
+    "title": "Annual Income and Cost of Living for BART Employees",
+    "images": ["80k.png"],
+    "startDate": "Oct 2, 2013",
+    "endDate": "Oct 17, 2013",
+    "url": "http://sxywu.github.io/80k",
+    "ghUrl": "https://github.com/sxywu/80k",
+    "labels": ["build", "d3", "backbone"]
+  },
+  {
+    "id": "expenses",
+    "title": "A Simple Expense App",
+    "images": ["expenses.png"],
+    "startDate": "Feb 15, 2015",
+    "endDate": "Jul 12, 2015",
+    "url": "sxywu.github.io/expenses",
+    "ghUrl": "https://github.com/sxywu/expenses",
+    "labels": ["build", "d3", "react"]
+  },
+  {
+    "id": "visfest",
+    "title": "viSFest block submissions",
+    "images": ["visfest.png"],
+    "startDate": "Oct 24, 2015",
+    "endDate": "Oct 26, 2015",
+    "url": "http://sxywu.github.io/visfest/",
+    "ghUrl": "https://github.com/sxywu/visfest",
+    "labels": ["build", "d3"]
+  },
+  {
+    "id": "tweety",
+    "title": "Tweety: A Portrait of Tweets",
+    "images": ["tweety.png"],
+    "startDate": "Nov 18, 2015",
+    "endDate": "Dec 22, 2015",
+    "url": "http://sxywu.github.io/tweety/",
+    "ghUrl": "https://github.com/sxywu/tweety",
+    "labels": ["build", "d3", "react"]
+  }
+]
