@@ -19,7 +19,8 @@ var App = React.createClass({
       d3: {color: '#a12a5e', shape: 'square', filled: true, text: 'd3.js'},
       react: {color: '#017351', shape: 'square', filled: true, text: 'react.js'},
       backbone: {color: '#0868ac', shape: 'square', filled: true, text: 'backbone.js'},
-      ror: {color: '#fbbf45', shape: 'square', filled: true, text: 'ruby on rails'}
+      ror: {color: '#fbbf45', shape: 'square', filled: true, text: 'ruby on rails'},
+      node: {color: '#110141', shape: 'square', filled: true, text: 'node'},
     };
 
     return {
@@ -41,7 +42,7 @@ var App = React.createClass({
   },
 
   render() {
-    var width = 1000;
+    var width = 960;
     var padding = 20;
     var sideWidth = 200 - 2 * padding;
     // var bodyWidth = width - sideWidth - 4 * padding;
