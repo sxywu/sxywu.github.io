@@ -7,10 +7,9 @@ var Card = require('./Card.jsx');
 
 var Cards = React.createClass({
   render() {
-    var cardsPerRow = 3;
+    var cardsPerRow = this.props.cardsPerRow;
     var cardWidth = (this.props.style.width - (cardsPerRow - 1) * this.props.style.padding) / cardsPerRow;
-    if (window.innerWidth < 460) {
-      cardsPerRow = 1;
+    if (cardsPerRow === 1) {
       cardWidth = this.props.style.width;
     }
 
@@ -21,7 +20,6 @@ var Cards = React.createClass({
     var columns = _.times(cardsPerRow, i => {
       var cards = _.chain(this.props.cards)
         .filter((data, j) => {
-          console.log(i, j, j / cardsPerRow === i)
           return j % cardsPerRow === i;
         }).map(data => {
           return (<Card key={data.id} style={cardStyle} data={data}  onFilter={this.props.onFilter}/>);

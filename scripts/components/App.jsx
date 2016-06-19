@@ -43,6 +43,12 @@ var App = React.createClass({
     });
   },
 
+  componentDidMount() {
+    window.addEventListener('resize', _.debounce(() => {
+      this.forceUpdate();
+    }, 200))
+  },
+
   onFilterLabels(name) {
     var labels = this.state.labels;
     labels[name].filled = !labels[name].filled;
@@ -60,7 +66,23 @@ var App = React.createClass({
   },
 
   render() {
-    var width = 960;
+    var width = 1060;
+    var cardsPerRow = 3;
+    console.log(window.innerWidth)
+    if (window.innerWidth <= 320) {
+      width = 300;
+      cardsPerRow = 1;
+    } else if (window.innerWidth <= 667) {
+      width = 600;
+      cardsPerRow = 1;
+    } else if (window.innerWidth <= 768) {
+      width = 700;
+      cardsPerRow = 2;
+    } else if (window.innerWidth <= 980) {
+      width = 900;
+      cardsPerRow = 2;
+    }
+
     var padding = 20;
     var sideWidth = 200 - 2 * padding;
     // var bodyWidth = width - sideWidth - 4 * padding;
@@ -85,7 +107,8 @@ var App = React.createClass({
       <div style={style}>
         <div style={bodyStyle}>
           <Header labels={this.state.labels} onFilter={this.onFilterLabels} />
-          <Cards style={cardsStyle} labels={this.state.labels} cards={this.state.filteredWorks}
+          <Cards style={cardsStyle} cardsPerRow={cardsPerRow}
+            labels={this.state.labels} cards={this.state.filteredWorks}
             onFilter={this.onFilterLabels} />
         </div>
       </div>
