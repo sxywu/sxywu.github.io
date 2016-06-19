@@ -26,9 +26,9 @@ var App = React.createClass({
   },
 
   render() {
-    var width = 960;
+    var width = 1000;
     var padding = 20;
-    var sideWidth = 180;
+    var sideWidth = 200;
     var style = {width, margin: 'auto'};
 
 

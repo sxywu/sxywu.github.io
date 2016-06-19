@@ -18,7 +18,15 @@ var Sidebar = React.createClass({
     };
     var menuStyle = {
       marginTop: '10px'
-    }
+    };
+    var hrStyle = {
+      border: 0,
+      height: '1px',
+      backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))',
+    };
+    var labels = _.map(this.props.labels, data => {
+      return (<Label data={data}>{data.text}</Label>);
+    });
 
     return (
       <div style={style}>
@@ -26,6 +34,8 @@ var Sidebar = React.createClass({
         <div style={menuStyle}>about</div>
         <div style={menuStyle}>contact</div>
         <div style={menuStyle}>resume</div>
+        <hr style={hrStyle} />
+        {labels}
       </div>
     );
   }

@@ -8,6 +8,8 @@ var Label = React.createClass({
     var style = {
       color: this.props.data.color,
       cursor: 'pointer',
+      display: 'inline-block',
+      margin: '3px 5px',
     };
     var dotStyle = {
       backgroundColor: this.props.data.filled ? this.props.data.color : '#fff',
