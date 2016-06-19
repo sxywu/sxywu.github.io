@@ -12,37 +12,37 @@ var Card = React.createClass({
     };
   },
 
-  componentWillMount() {
-    d3.json('works/' + this.props.data.name + '.json', (err, data) => {
-      this.setState(data);
-    });
-  },
-
   render() {
     var style = Object.assign({
-      boxShadow: '0 0 5px #cfcfcf',
+      boxShadow: '0 0 5px #999',
+      border: '1px solid #ccc',
+      borderRadius: '3px',
       display: 'inline-block',
-      marginRight: this.props.style.padding,
-      padding: 5,
+      padding: 7,
       textAlign: 'center',
+      verticalAlign: 'top',
     }, this.props.style);
-    var image = this.state.images && 'images/' + this.state.images[0];
+    var image = this.props.data.images && 'images/' + this.props.data.images[0];
     var imgStyle = {
       width: this.props.style.width,
     }
 
-    var labels = _.map(this.state.labels, (name, i) => {
-    debugger
-      return (<Label key={i} data={this.props.data.labels[name]} />);
+    var labelStyle = {margin: '2px 5px'};
+    var labels = _.map(this.props.data.labels, (label, i) => {
+      return (<Label key={i} style={labelStyle} data={label}>{label.text}</Label>);
     });
+
+    var headerStyle = {
+      margin: 0,
+    };
 
     return (
       <div style={style}>
-        <div className='header'>
-          {this.state.title}
-        </div>
-        {labels}
+        <h4 className='header' style={headerStyle}>
+          {this.props.data.title}
+        </h4>
         <img src={image} style={imgStyle} />
+        {labels}
       </div>
     );
   }

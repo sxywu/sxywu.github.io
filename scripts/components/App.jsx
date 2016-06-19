@@ -1,10 +1,11 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var _ = require('lodash');
+var d3 = require('d3/d3');
 
 var Sidebar = require('./Sidebar.jsx');
 var Header = require('./Header.jsx');
-var Card = require('./Card.jsx');
+var Cards = require('./Cards.jsx');
 
 var colors = ["#1a1334", "#26294a", "#01545a", "#017351", "#03c383", "#aad962",
   "#fbbf45", "#ef6a32", "#ed0345", "#a12a5e", "#710162", "#110141"];
@@ -26,14 +27,25 @@ var App = React.createClass({
     };
   },
 
+  componentWillMount() {
+    d3.json('works/works.json', works => {
+      works = _.sortBy(works, data => {
+        data.startDate = new Date(data.startDate);
+        data.endDate = new Date(data.endDate);
+        data.labels = _.map(data.labels, name => this.state.labels[name]);
+
+        return -data.startDate;
+      });
+      this.setState({works});
+    });
+  },
+
   render() {
-    var width = 1200;
+    var width = 960;
     var padding = 20;
     var sideWidth = 200 - 2 * padding;
-    var bodyWidth = width - sideWidth - 4 * padding;
-    var cardsPerRow = 3;
-    var cardWidth = bodyWidth / cardsPerRow - (cardsPerRow - 1) * padding;
-    var color = '#222';
+    // var bodyWidth = width - sideWidth - 4 * padding;
+    var bodyWidth = width - 2 * padding;
 
     var style = {width, margin: 'auto'};
     var sideStyle = {
@@ -45,23 +57,16 @@ var App = React.createClass({
       padding,
       display: 'inline-block',
     };
-    var cardStyle = {
-      width: cardWidth,
+    var cardsStyle = {
+      width: bodyWidth,
       padding,
-      color,
-    }
-
-    var cards = _.map(works, name => {
-      var data = {name, labels: this.state.labels}
-      return (<Card key={name} style={cardStyle} data={data} />);
-    });
+    };
 
     return (
       <div style={style}>
-        <Sidebar style={sideStyle} labels={this.state.labels} />
         <div style={bodyStyle}>
           <Header labels={this.state.labels} />
-          {cards}
+          <Cards style={cardsStyle} labels={this.state.labels} cards={this.state.works} />
         </div>
       </div>
     );
