@@ -3,7 +3,8 @@ var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
 var Label = React.createClass({
-  onClick() {
+  onClick(e) {
+    e.stopPropagation();
     this.props.onFilter(this.props.data.id);
   },
 
@@ -20,7 +21,7 @@ var Label = React.createClass({
       display: 'inline-block',
       width: size,
       height: size,
-      borderRadius: this.props.data.shape === 'round' ? size : 0,
+      borderRadius: this.props.data.shape === 'round' ? size : size / 3,
       marginRight: '5px',
       verticalAlign: 'middle',
     };
