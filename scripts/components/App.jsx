@@ -34,10 +34,10 @@ var App = React.createClass({
     d3.json('works/works.json', works => {
       works = _.sortBy(works, data => {
         data.startDate = new Date(data.startDate);
-        data.endDate = new Date(data.endDate);
+        data.endDate = data.endDate && new Date(data.endDate);
         data.labels = _.map(data.labels, name => this.state.labels[name]);
 
-        return -data.startDate;
+        return -(data.endDate || data.startDate);
       });
       this.setState({works, filteredWorks: works});
     });
