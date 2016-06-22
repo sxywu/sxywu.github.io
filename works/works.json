@@ -15,7 +15,7 @@
     "images": ["expenses.png"],
     "startDate": "Feb 15, 2015",
     "endDate": "Jul 12, 2015",
-    "url": "sxywu.github.io/expenses",
+    "url": "http://sxywu.github.io/expenses",
     "ghUrl": "https://github.com/sxywu/expenses",
     "labels": ["build", "d3", "react"]
   },
@@ -42,7 +42,7 @@
   {
     "id": "2015",
     "title": "2015, A Year in Review",
-    "images": ["2015.png"],
+    "images": ["2015.jpeg"],
     "startDate": "Jan 15, 2016",
     "url": "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5",
     "labels": ["write"]
@@ -118,5 +118,23 @@
     "startDate": "Nov 11, 2013",
     "url": "https://www.youtube.com/watch?v=Zh2aLYPY16M",
     "labels": ["talk"]
+  },
+  {
+    "id": "d3react_talk",
+    "title": "D3 + REACT = 🎩💕",
+    "images": ["d3react_talk.png"],
+    "startDate": "Dec 2, 2015",
+    "url": "http://slides.com/shirleywu/deck#/",
+    "labels": ["talk", "d3", "react"]
+  },
+  {
+    "id": "d3intro",
+    "title": "An Introduction to d3.js",
+    "images": ["d3intro.png"],
+    "startDate": "Jan 28, 2014",
+    "endDate": "Jul 23, 2014",
+    "url": "http://sxywu.github.io/d3intro/",
+    "ghUrl": "https://github.com/sxywu/d3intro",
+    "labels": ["build", "d3"]
   }
 ]
