@@ -8,7 +8,8 @@
     "url": "http://sxywu.github.io/80k",
     "ghUrl": "https://github.com/sxywu/80k",
     "type": "build",
-    "tags": ["d3", "backbone"]
+    "tags": ["d3", "backbone"],
+    "description": "I attempt to understand the motivations behind the BART strikes of summer and fall 2013."
   },
   {
     "id": "expenses",
@@ -20,7 +21,7 @@
     "ghUrl": "https://github.com/sxywu/expenses",
     "type": "build",
     "tags": ["d3", "react", "flux"],
-    "description": "A simple application for showing how to use D3, React, and Flux together."
+    "description": "I build a *simple* example app for my blog post On D3, React, and a little bit of Flux."
   },
   {
     "id": "visfest",
@@ -31,18 +32,42 @@
     "url": "http://sxywu.github.io/visfest/",
     "ghUrl": "https://github.com/sxywu/visfest",
     "type": "build",
-    "tags": ["d3", "d3unconf"]
+    "tags": ["d3", "d3unconf"],
+    "description": "I visualize all of the bl.ocks submitted to the 2015 d3.unconf, organized by proximity to their most frequently used d3 functions."
   },
   {
     "id": "tweety",
-    "title": "Tweety: A Portrait of Tweets",
+    "title": "tweety",
     "images": ["tweety.png"],
     "startDate": "Nov 18, 2015",
     "endDate": "Dec 22, 2015",
     "url": "http://sxywu.github.io/tweety/",
     "ghUrl": "https://github.com/sxywu/tweety",
     "type": "build",
-    "tags": ["d3", "react"]
+    "tags": ["d3", "react", "canvas"],
+    "description": "I take a twitter profile image, run it through some image processing algorithms to figure out which pixels should be filled, and map that twitter user's most recent tweets to each pixel."
+  },
+  {
+    "id": "wongfu",
+    "title": "Wong Fu & Friends (WIP)",
+    "images": ["wongfu.png"],
+    "startDate": "Mar 13, 2014",
+    "endDate": "Apr 17, 2016",
+    "url": "https://github.com/sxywu/wongfu",
+    "type": "build",
+    "tags": ["d3", "react", "wip"],
+    "description": "A yet-to-be-finished side project visualizing the relationship between Youtube channel Wong Fu Productions and their collaborators."
+  },
+  {
+    "id": "vday",
+    "title": "How Twitter Does Vday",
+    "images": ["vday.png"],
+    "startDate": "Feb 14, 2015",
+    "url": "https://www.instagram.com/p/zGUzZcKvUu/",
+    "ghUrl": "https://github.com/sxywu/vday",
+    "type": "build",
+    "tags": ["arduino", "johnny-five"],
+    "description": "I hook up the arduino to a real-time Twitter stream and make it blink to Valentine's Day tweets."
   },
   {
     "id": "2015",
@@ -141,7 +166,8 @@
     "startDate": "Dec 2, 2015",
     "url": "http://slides.com/shirleywu/deck#/",
     "type": "talk",
-    "tags": ["d3", "react", "wafflejs"]
+    "tags": ["d3", "react", "wafflejs", "brooklynjs"],
+    "description": "I talk about the three different approaches of using d3 and react.js together that I have explored."
   },
   {
     "id": "d3intro",
