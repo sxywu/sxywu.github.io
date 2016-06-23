@@ -52,39 +52,52 @@ var App = React.createClass({
     var filteredLabels = _.chain(labels)
       .filter(label => label.filled)
       .map('id').value();
-
-    var filteredWorks = this.state.works;
-    if (filteredLabels.length) {
-      filteredWorks = _.filter(filteredWorks, work => _.includes(filteredLabels, work.type.id));
-    }
+    console.log(filteredLabels)
+    var filteredWorks = _.filter(this.state.works, work => _.includes(filteredLabels, work.type.id));
 
     this.setState({labels, filteredWorks});
   },
 
   render() {
+    var padding = 20;
     var cardsPerRow = 3;
+
     var windowWidth = Math.min(window.innerWidth, screen.width);
     var width = window.innerWidth <= 1200 ? window.innerWidth : 1200;
-    if (windowWidth <= 375) {
-      cardsPerRow = 1;
-    }else if (windowWidth <= 768) {
-      cardsPerRow = 2;
-    }
-
-    var padding = 20;
     var sideWidth = 200 - 2 * padding;
-    // var bodyWidth = width - sideWidth - 4 * padding;
-    var bodyWidth = width - 2 * padding;
+    var bodyWidth = width - sideWidth - 4 * padding;
 
-    var style = {width, margin: 'auto'};
+    var style = {
+      width,
+      margin: 'auto',
+      position: 'relative',
+    };
     var sideStyle = {
       width: sideWidth,
       padding,
+      position: 'fixed',
+      textAlign: 'right',
     };
+
+    var sideBar = (<Sidebar labels={this.state.labels} onFilter={this.onFilterLabels} />)
+    if (windowWidth <= 375) {
+      cardsPerRow = 1;
+      sideWidth = 0;
+      bodyWidth = width - 2 * padding;
+      sideBar = null;
+    }else if (windowWidth <= 960) {
+      cardsPerRow = 2;
+      sideWidth = 0;
+      bodyWidth = width - 2 * padding;
+      sideBar = null;
+    }
+
     var bodyStyle = {
       width: bodyWidth,
       padding,
       display: 'inline-block',
+      position: 'absolute',
+      left: sideWidth && sideWidth + 2 * padding,
     };
     var cardsStyle = {
       width: bodyWidth,
@@ -93,6 +106,12 @@ var App = React.createClass({
 
     return (
       <div style={style}>
+        <div style={sideStyle}>
+          {sideBar}
+          <div style={{marginTop: 15, fontStyle: 'italic'}}>
+            showing {this.state.filteredWorks.length} of {this.state.works.length}
+          </div>
+        </div>
         <div style={bodyStyle}>
           <Header labels={this.state.labels} onFilter={this.onFilterLabels} />
           <Cards style={cardsStyle} cardsPerRow={cardsPerRow}

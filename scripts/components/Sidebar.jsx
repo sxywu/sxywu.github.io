@@ -7,38 +7,34 @@ var Label = require('./Label.jsx');
 var Sidebar = React.createClass({
   render() {
     var style = Object.assign({
-      display: 'inline-block',
-      textAlign: 'center',
       verticalAlign: 'top',
-      cursor: 'pointer',
+      fontSize: '1.25em',
     }, this.props.style);
     var logoStyle = {
       width: '100px',
       height: '100px',
     };
     var menuStyle = {
-      marginTop: '10px'
-    };
-    var hrStyle = {
-      border: 0,
-      height: '1px',
-      backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))',
+      marginBottom: '10px'
     };
     var labelStyle = {
-      margin: '2px 5px',
+      margin: '5px 0px',
+      display: 'block',
     }
     var labels = _.map(this.props.labels, (data, key) => {
-      return (<Label key={key} style={labelStyle} data={data}>{data.text}</Label>);
+      return (
+        <Label key={key} style={labelStyle}
+          dot={true} data={data} onFilter={this.props.onFilter}>
+          {data.text}
+        </Label>
+      );
     });
 
     return (
       <div style={style}>
-        <div style={logoStyle} />
-        <div style={menuStyle}>about</div>
-        <div style={menuStyle}>contact</div>
-        <div style={menuStyle}>resume</div>
-        <hr style={hrStyle} />
+        <h2 className='header'>Shirley XueYang Wu</h2>
         {labels}
+        {this.props.children }
       </div>
     );
   }
