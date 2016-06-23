@@ -13,14 +13,10 @@ var colors = ["#1a1334", "#26294a", "#01545a", "#017351", "#03c383", "#aad962",
 var App = React.createClass({
   getInitialState() {
     var labels = {
-      build: {id: 'build', color: '#ed0345', shape: 'round', filled: false, text: 'build'},
-      write: {id: 'write', color: '#03c383', shape: 'round', filled: false, text: 'write'},
-      talk: {id: 'talk', color: '#4eb3d3', shape: 'round', filled: false, text: 'talk'},
-      d3: {id: 'd3', color: '#a12a5e', shape: 'square', filled: false, text: 'd3.js'},
-      react: {id: 'react', color: '#017351', shape: 'square', filled: false, text: 'react.js'},
-      backbone: {id: 'backbone', color: '#0868ac', shape: 'square', filled: false, text: 'backbone.js'},
-      ror: {id: 'ror', color: '#fbbf45', shape: 'square', filled: false, text: 'ruby on rails'},
-      node: {id: 'node', color: '#110141', shape: 'square', filled: false, text: 'node'},
+      build: {id: 'build', color: '#03c383', shape: 'round', filled: true, text: 'build'},
+      write: {id: 'write', color: '#07A4D0', shape: 'round', filled: true, text: 'write'},
+      talk: {id: 'talk', color: '#fbbf45', shape: 'round', filled: true, text: 'talk'},
+      organize: {id: 'organize', color: '#ed0345', shape: 'round', filled: true, text: 'organize'},
     };
 
     return {
@@ -35,7 +31,7 @@ var App = React.createClass({
       works = _.sortBy(works, data => {
         data.startDate = new Date(data.startDate);
         data.endDate = data.endDate && new Date(data.endDate);
-        data.labels = _.map(data.labels, name => this.state.labels[name]);
+        data.type = this.state.labels[data.type];
 
         return -(data.endDate || data.startDate);
       });
@@ -59,11 +55,7 @@ var App = React.createClass({
 
     var filteredWorks = this.state.works;
     if (filteredLabels.length) {
-      filteredWorks = _.filter(filteredWorks, work => {
-        return _.some(work.labels, label => {
-          return _.includes(filteredLabels, label.id);
-        });
-      });
+      filteredWorks = _.filter(filteredWorks, work => _.includes(filteredLabels, work.type.id));
     }
 
     this.setState({labels, filteredWorks});

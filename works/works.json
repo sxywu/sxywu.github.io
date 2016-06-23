@@ -7,7 +7,8 @@
     "endDate": "Oct 17, 2013",
     "url": "http://sxywu.github.io/80k",
     "ghUrl": "https://github.com/sxywu/80k",
-    "labels": ["build", "d3", "backbone"]
+    "type": "build",
+    "tags": ["d3", "backbone"]
   },
   {
     "id": "expenses",
@@ -17,7 +18,9 @@
     "endDate": "Jul 12, 2015",
     "url": "http://sxywu.github.io/expenses",
     "ghUrl": "https://github.com/sxywu/expenses",
-    "labels": ["build", "d3", "react"]
+    "type": "build",
+    "tags": ["d3", "react", "flux"],
+    "description": "A simple application for showing how to use D3, React, and Flux together."
   },
   {
     "id": "visfest",
@@ -27,7 +30,8 @@
     "endDate": "Oct 26, 2015",
     "url": "http://sxywu.github.io/visfest/",
     "ghUrl": "https://github.com/sxywu/visfest",
-    "labels": ["build", "d3"]
+    "type": "build",
+    "tags": ["d3", "d3unconf"]
   },
   {
     "id": "tweety",
@@ -37,7 +41,8 @@
     "endDate": "Dec 22, 2015",
     "url": "http://sxywu.github.io/tweety/",
     "ghUrl": "https://github.com/sxywu/tweety",
-    "labels": ["build", "d3", "react"]
+    "type": "build",
+    "tags": ["d3", "react"]
   },
   {
     "id": "2015",
@@ -45,7 +50,8 @@
     "images": ["2015.jpeg"],
     "startDate": "Jan 15, 2016",
     "url": "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5",
-    "labels": ["write"]
+    "type": "write",
+    "tags": ["d3", "react", "illumio", "d3unconf", "wafflejs", "travel"]
   },
   {
     "id": "d3reactflux",
@@ -53,7 +59,8 @@
     "images": ["d3reactflux.png"],
     "startDate": "Jul 13, 2015",
     "url": "https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3#.45ai7qjrd",
-    "labels": ["write", "d3", "react"]
+    "type": "write",
+    "tags": ["d3", "react", "flux"]
   },
   {
     "id": "d3backbone2",
@@ -61,7 +68,8 @@
     "images": ["d3backbone2.png"],
     "startDate": "Jul 5, 2014",
     "url": "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a-follow-up-b6a62a9731e1#.80731q9pi",
-    "labels": ["write", "d3", "backbone"]
+    "type": "write",
+    "tags": ["d3", "backbone"]
   },
   {
     "id": "d3backbone",
@@ -69,7 +77,8 @@
     "images": ["d3backbone.png"],
     "startDate": "May 9, 2013",
     "url": "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a7c9c124579e#.gmwv0afuq",
-    "labels": ["write", "d3", "backbone"]
+    "type": "write",
+    "tags": ["d3", "backbone"]
   },
   {
     "id": "force",
@@ -77,7 +86,8 @@
     "images": ["force.png"],
     "startDate": "Jul 22, 2014",
     "url": "https://medium.com/@sxywu/understanding-the-force-ef1237017d5#.nedspzkwf",
-    "labels": ["write", "d3"]
+    "type": "write",
+    "tags": ["d3"]
   },
   {
     "id": "d3backbone2_talk",
@@ -85,7 +95,8 @@
     "images": ["d3backbone2_talk.png"],
     "startDate": "Dec 16, 2014",
     "url": "https://www.youtube.com/watch?v=TqXD0_tGPv8",
-    "labels": ["talk", "d3", "backbone"]
+    "type": "talk",
+    "tags": ["d3", "backbone", "backboneconf"]
   },
   {
     "id": "d3backbone_talk",
@@ -93,7 +104,8 @@
     "images": ["d3backbone_talk.png"],
     "startDate": "Aug 22, 2013",
     "url": "https://www.youtube.com/watch?v=Qh0lx1mRpns",
-    "labels": ["talk", "d3", "backbone"]
+    "type": "talk",
+    "tags": ["d3", "backbone", "d3bayarea"]
   },
   {
     "id": "silly_talk",
@@ -101,7 +113,8 @@
     "images": ["silly_talk.png"],
     "startDate": "Jan 12, 2016",
     "url": "https://www.youtube.com/watch?v=Tgj8XICtiHw",
-    "labels": ["talk"]
+    "type": "talk",
+    "tags": ["d3", "backbone", "react", "node", "ruby on rails", "d3bayarea"]
   },
   {
     "id": "product_talk",
@@ -109,7 +122,8 @@
     "images": ["product_talk.png"],
     "startDate": "Apr 25, 2016",
     "url": "https://www.youtube.com/watch?v=fnp9g29lF8c",
-    "labels": ["talk"]
+    "type": "talk",
+    "tags": ["openvisconf"]
   },
   {
     "id": "bart_talk",
@@ -117,7 +131,8 @@
     "images": ["bart_talk.png"],
     "startDate": "Nov 11, 2013",
     "url": "https://www.youtube.com/watch?v=Zh2aLYPY16M",
-    "labels": ["talk"]
+    "type": "talk",
+    "tags": ["d3bayarea"]
   },
   {
     "id": "d3react_talk",
@@ -125,7 +140,8 @@
     "images": ["d3react_talk.png"],
     "startDate": "Dec 2, 2015",
     "url": "http://slides.com/shirleywu/deck#/",
-    "labels": ["talk", "d3", "react"]
+    "type": "talk",
+    "tags": ["d3", "react", "wafflejs"]
   },
   {
     "id": "d3intro",
@@ -135,6 +151,7 @@
     "endDate": "Jul 23, 2014",
     "url": "http://sxywu.github.io/d3intro/",
     "ghUrl": "https://github.com/sxywu/d3intro",
-    "labels": ["build", "d3"]
+    "type": "build",
+    "tags": ["d3", "backbone"]
   }
 ]

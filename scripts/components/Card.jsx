@@ -21,32 +21,51 @@ var Card = React.createClass({
       border: '1px solid #666',
       borderRadius: '3px',
       display: 'inline-block',
-      padding: '15px 10px 20px 10px',
+      padding: '7px 7px 20px 7px',
       textAlign: 'center',
       verticalAlign: 'top',
       cursor: 'pointer',
+      backgroundColor: '#fff',
     }, this.props.style);
-    var image = this.props.data.images && 'images/' + this.props.data.images[0];
     var imgStyle = {
       width: this.props.style.width,
+      borderRadius: '3px',
     }
 
-    var labelStyle = {margin: '3px 0 10px 0'};
-    var labels = _.map(this.props.data.labels, (label, i) => {
-      return (<Label key={i} style={labelStyle} data={label} onFilter={this.props.onFilter} />);
-    });
+    var image = this.props.data.images && 'images/' + this.props.data.images[0];
+    image = image && (<img src={image} style={imgStyle} />);
 
     var headerStyle = {
-      margin: 0,
+      margin: '10px 20px 3px 20px',
     };
+
+    var labelStyle = {margin: '3px 0 10px 0'};
+    var label = (<Label
+      style={labelStyle}
+      dot={true}
+      data={this.props.data.type}
+      onFilter={this.props.onFilter}
+    />);
+
+    var tagStyle = {
+      margin: '3px 40px 10px 40px',
+      color: '#666',
+      fontSize: '.85em',
+    }
 
     return (
       <div className='card' style={style} onClick={this.onClick}>
+        {image}
         <h3 className='header' style={headerStyle}>
           {this.props.data.title}
         </h3>
-        {labels}
-        <img src={image} style={imgStyle} />
+        {label}
+        <div style={tagStyle}>
+          {this.props.data.tags.join(',  ')}
+        </div>
+        <div style={headerStyle}>
+          {this.props.data.description}
+        </div>
       </div>
     );
   }
