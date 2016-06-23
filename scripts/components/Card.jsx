@@ -50,20 +50,25 @@ var Card = React.createClass({
     var tagStyle = {
       margin: '3px 40px 10px 40px',
       color: '#666',
-      fontSize: '.85em',
+      fontSize: '.9em',
+      fontStyle: 'italic',
+    }
+
+    var descriptionStyle = {
+      margin: '10px',
     }
 
     return (
       <div className='card' style={style} onClick={this.onClick}>
         {image}
-        <h3 className='header' style={headerStyle}>
+        <h2 className='header' style={headerStyle}>
           {this.props.data.title}
-        </h3>
+        </h2>
         {label}
         <div style={tagStyle}>
           {this.props.data.tags.join(',  ')}
         </div>
-        <div style={headerStyle}>
+        <div style={descriptionStyle}>
           {this.props.data.description}
         </div>
       </div>
