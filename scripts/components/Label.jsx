@@ -5,7 +5,7 @@ var _ = require('lodash');
 var Label = React.createClass({
   onClick(e) {
     e.stopPropagation();
-    this.props.onFilter(this.props.data.id);
+    this.props.onFilter && this.props.onFilter(this.props.data.id);
   },
 
   render() {
