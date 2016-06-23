@@ -47,6 +47,14 @@ var App = React.createClass({
 
   onFilterLabels(name) {
     var labels = this.state.labels;
+    var allLabelsOn = _.every(this.state.labels, label => label.filled);
+
+    if (allLabelsOn) {
+      // then set all labels to filled=false first
+      _.each(labels, (label) => {
+        label.filled = false
+      });
+    }
     labels[name].filled = !labels[name].filled;
 
     var filteredLabels = _.chain(labels)

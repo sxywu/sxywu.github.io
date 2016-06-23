@@ -44,7 +44,6 @@ var Card = React.createClass({
       style={labelStyle}
       dot={true}
       data={this.props.data.type}
-      onFilter={this.props.onFilter}
     />);
 
     var tagStyle = {

@@ -22,7 +22,7 @@ var Cards = React.createClass({
         .filter((data, j) => {
           return j % cardsPerRow === i;
         }).map(data => {
-          return (<Card key={data.id} style={cardStyle} data={data}  onFilter={this.props.onFilter}/>);
+          return (<Card key={data.id} style={cardStyle} data={data} />);
         }).value();
       var columnStyle = {
         width: cardWidth,
