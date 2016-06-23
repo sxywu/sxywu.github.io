@@ -63,7 +63,7 @@ var App = React.createClass({
     var cardsPerRow = 3;
 
     var windowWidth = Math.min(window.innerWidth, screen.width);
-    var width = window.innerWidth <= 1200 ? window.innerWidth : 1200;
+    var width = window.innerWidth <= 1400 ? window.innerWidth : 1200;
     var sideWidth = 200 - 2 * padding;
     var bodyWidth = width - sideWidth - 4 * padding;
 
@@ -79,17 +79,23 @@ var App = React.createClass({
       textAlign: 'right',
     };
 
-    var sideBar = (<Sidebar labels={this.state.labels} onFilter={this.onFilterLabels} />)
-    if (windowWidth <= 375) {
+    var sideBar = (
+      <div style={sideStyle}>
+        <Sidebar labels={this.state.labels} onFilter={this.onFilterLabels} />
+        <div style={{marginTop: 15, fontStyle: 'italic'}}>
+          showing {this.state.filteredWorks.length} of {this.state.works.length}
+        </div>
+      </div>
+    );
+    if (windowWidth <= 560) {
       cardsPerRow = 1;
       sideWidth = 0;
       bodyWidth = width - 2 * padding;
       sideBar = null;
-    }else if (windowWidth <= 960) {
+    } else if (windowWidth <= 760) {
+      cardsPerRow = 1;
+    } else if (windowWidth <= 1060) {
       cardsPerRow = 2;
-      sideWidth = 0;
-      bodyWidth = width - 2 * padding;
-      sideBar = null;
     }
 
     var bodyStyle = {
@@ -106,12 +112,7 @@ var App = React.createClass({
 
     return (
       <div style={style}>
-        <div style={sideStyle}>
-          {sideBar}
-          <div style={{marginTop: 15, fontStyle: 'italic'}}>
-            showing {this.state.filteredWorks.length} of {this.state.works.length}
-          </div>
-        </div>
+        {sideBar}
         <div style={bodyStyle}>
           <Header labels={this.state.labels} onFilter={this.onFilterLabels} />
           <Cards style={cardsStyle} cardsPerRow={cardsPerRow}
