@@ -62,20 +62,12 @@ var App = React.createClass({
   },
 
   render() {
-    var width = 1060;
     var cardsPerRow = 3;
-    console.log(window.innerWidth)
-    if (window.innerWidth <= 320) {
-      width = 300;
+    var windowWidth = Math.min(window.innerWidth, screen.width);
+    var width = window.innerWidth <= 1200 ? window.innerWidth : 1200;
+    if (windowWidth <= 375) {
       cardsPerRow = 1;
-    } else if (window.innerWidth <= 667) {
-      width = 600;
-      cardsPerRow = 1;
-    } else if (window.innerWidth <= 768) {
-      width = 700;
-      cardsPerRow = 2;
-    } else if (window.innerWidth <= 980) {
-      width = 900;
+    }else if (windowWidth <= 768) {
       cardsPerRow = 2;
     }
 
