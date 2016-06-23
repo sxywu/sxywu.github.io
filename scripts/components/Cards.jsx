@@ -32,7 +32,7 @@ var Cards = React.createClass({
       };
 
       return (
-        <div style={columnStyle}>
+        <div key={i} style={columnStyle}>
           {cards}
         </div>
       );
