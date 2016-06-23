@@ -25,10 +25,11 @@ var Label = React.createClass({
       marginRight: '5px',
       verticalAlign: 'middle',
     };
+    var dot = this.props.dot && (<span style={dotStyle} />);
 
     return (
       <span className='label' style={style} onClick={this.onClick}>
-        <span style={dotStyle} />
+        {dot}
         {this.props.children}
       </span>
     );
