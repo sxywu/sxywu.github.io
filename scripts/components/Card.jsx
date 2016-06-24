@@ -16,6 +16,11 @@ var Card = React.createClass({
     window.open(this.props.data.url, '_new');
   },
 
+  onClickExpand(e) {
+    e.stopPropagation();
+    this.props.onExpandCard(this.props.data);
+  },
+
   render() {
     var style = Object.assign({
       border: '1px solid #666',
@@ -53,9 +58,15 @@ var Card = React.createClass({
       fontStyle: 'italic',
     }
 
-    var descriptionStyle = {
+    var expandStyle = {
       margin: '10px',
+      fontSize: '1.25em',
     }
+    var expand = this.props.data.expand && (
+      <div style={expandStyle} onClick={this.onClickExpand}>
+        ↓
+      </div>
+    );
 
     return (
       <div className='card' style={style} onClick={this.onClick}>
@@ -67,9 +78,7 @@ var Card = React.createClass({
         <div style={tagStyle}>
           {this.props.data.tags.join(',  ')}
         </div>
-        <div style={descriptionStyle}>
-          {this.props.data.description}
-        </div>
+        {expand}
       </div>
     );
   }
