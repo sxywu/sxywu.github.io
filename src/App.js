@@ -60,6 +60,7 @@ var App = React.createClass({
 
     var funWorks = [
       works.filmflowers,
+      works.wongfu,
     ];
 
     return (

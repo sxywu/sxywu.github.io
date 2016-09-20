@@ -73,7 +73,7 @@ var Card = React.createClass({
     if (imageOrientation === 'left' || imageOrientation === 'top') {
       order.push(image);
       order.push(annotation);
-    } else if (imageOrientation === 'right' || imageOrientation === 'top') {
+    } else if (imageOrientation === 'right' || imageOrientation === 'bottom') {
       order.push(annotation);
       order.push(image);
     }

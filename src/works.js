@@ -1,6 +1,7 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 import filmflowersImage from './images/filmflowers.png';
+import wongfuImage from './images/wongfu.png';
 
 export default {
   "product": {
@@ -57,6 +58,21 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
       `
     ],
     "buttons": [[["View", "http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/"]]]
+  },
+
+  "wongfu": {
+    "id": "wongfu",
+    "title": "Wong Fu & Friends (WIP)",
+    "startDate": "Mar 13, 2014",
+    "endDate": "Apr 17, 2016",
+    "type": "build",
+    "images": [wongfuImage, "bottom"],
+    "annotations": [
+      `
+A visualization of the Youtube channel Wong Fu Productions, and their collaborations with other channels over the years.  A work-in-progress.
+      `
+    ],
+    "buttons": [[["View code", "https://github.com/sxywu/wongfu"]]]
   },
 
 };
