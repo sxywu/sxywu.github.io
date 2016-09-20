@@ -1,9 +1,15 @@
 import React from 'react';
+import _ from 'lodash';
+import Remarkable from 'remarkable';
+
 import logo from './images/logo.png';
+import profileImage from './images/profile.png';
 import works from './works';
 
 import Cards from './Cards';
 import Card from './Card';
+
+var md = new Remarkable();
 
 var colors = {
   white: '#fff',
@@ -28,7 +34,7 @@ var App = React.createClass({
   render() {
     var style = {
       width: this.state.width,
-      margin: '-10px auto',
+      margin: 'auto',
     };
     var headerStyle = {
       textAlign: 'center',
@@ -59,6 +65,9 @@ var App = React.createClass({
     var forWritingStyle = Object.assign(_.clone(forStyle), {
       fontSize: 28,
     });
+    var forStoryStyle = Object.assign(_.clone(forStyle), {
+      color: colors.pink,
+    });
 
     var funWorks = [
       works.filmflowers,
@@ -72,6 +81,26 @@ var App = React.createClass({
       works.backboned3,
       works["backboned3_talk"],
     ];
+
+    var profileStyle = {
+      width: 150,
+      margin: this.state.padding,
+    };
+    var originStyle = {
+      backgroundColor: colors.light,
+      padding: this.state.padding,
+      marginBottom: this.state.margin / 2,
+      textAlign: 'center',
+    };
+    var originStory = { __html: md.render(works.profile) };
+
+    var footerStyle = Object.assign(_.clone(headerStyle), {
+      marginBottom: 0,
+      color: colors.pink,
+    });
+    var footerMediaStyle = Object.assign(_.clone(mediaStyle), {
+      marginTop: 0,
+    });
 
 
     return (
@@ -113,6 +142,24 @@ var App = React.createClass({
         </div>
 
         <Cards data={writingWorks} {...this.state} />
+
+        <div className='king-basil' style={forStoryStyle}>
+          💖<br />
+          origin story.
+        </div>
+
+        <div style={originStyle}>
+          <img style={profileStyle} src={profileImage} role="presentation" />
+          <div style={{textAlign: 'left'}} dangerouslySetInnerHTML={originStory} />
+        </div>
+
+        <div className='Footer' style={footerStyle}>
+          <div className='king-basil' style={forStoryStyle}>hire me.</div>
+          <h2>💌</h2>
+          <div style={footerMediaStyle}>
+            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
+          </div>
+        </div>
 
       </div>
     );

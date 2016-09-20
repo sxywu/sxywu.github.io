@@ -8,6 +8,7 @@ import twentyfifteenImage from './images/2015.png';
 import forceImage from './images/force.png';
 import backboned3Image from './images/backboned3.png';
 import backboned3talkImage from './images/backboned3_talk.png';
+import profileImage from './images/profile.png';
 
 export default {
   "product": {
@@ -164,7 +165,35 @@ Marrying Backbone.js and D3.js.  A write-up of the difficulties we encountered t
 Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all three approaches that I experimented with and what I learned from them.
       `
     ],
-    "buttons": [[["Watch", "https://www.youtube.com/watch?v=TqXD0_tGPv8"]]]
+    "buttons": [
+      [
+        ["Watch", "https://www.youtube.com/watch?v=TqXD0_tGPv8"],
+        ["Read", "http://sxywu.com/backbone-d3/"],
+      ]
+    ],
   },
+
+  "profile":
+      `
+When I was a kid, I loved two things: math and art; I wanted to be a painter or Pixar animator when I grew up.  When I entered high school, I took an exhaustive number of math and science classes.  By the end of the four years, I wanted absolutely nothing to do with them.
+
+So naturally, my eighteen-year-old self decided that business would be the exact opposite and be my raison d'être.
+
+Fast-forward three years to my junior year, and I realized I hated my business classes and adored the few Computer Science classes I took.  When I completed my summer internship at an investment bank, I knew that I couldn't go back.  I decided that I would focus my senior year on completing a CS minor and looking for a full-time job in software engineering.
+
+(My friends told me they had expected this of me all along: "why did you even go into business, anyway?")
+
+And somehow, miraculously, I landed a full-time position at Splunk post-graduation.  I was beside myself with relief and joy.  I was introduced to D3 as part of my job, and slowly fell in love with its genius.  By the time I left, I was the resident "d3/dataviz expert".
+
+When I started at Illumio, I was happy with my technical knowledge, but wanted to apply it and help build a long-term project from the ground up.  Illumination allowed me to do that; I learned so much about teamwork, and the joys and pitfalls of building out a piece of the product from its inception.
+
+I've recently left Illumio.  I'm hoping to spend more time working on my side projects, and exploring what kind of industries and projects excite me (I believe us millennials call this "soul-searching.").  I'm trying my hand at freelancing - something I've always wanted to do - and hoping that it'll give me the luxury of diversity in the projects I work on.
+
+(My coworkers told me freelancing perfect for me, what with my restless wanderlust and all.)
+
+It's a great unknown for me going forward, but I am comforted with a knowlege: I am doing exactly what I loved as a kid - math and art - and what I love as an adult - coding.
+
+So I must be doing something right.
+      `
 
 };
