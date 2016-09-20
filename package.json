@@ -1,28 +1,18 @@
 {
-  "name": "sxywu.com",
-  "main": "scripts/main.js",
-  "dependencies": {
-    "d3": "^3.5.17",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "lodash": "^4.13.1",
-    "remarkable": "^1.6.2"
-  },
+  "name": "helloworld",
+  "version": "0.1.0",
+  "private": true,
   "devDependencies": {
-    "browserify": "^6.2.0",
-    "envify": "^3.0.0",
-    "reactify": "^0.15.2",
-    "uglify-js": "~2.4.15",
-    "watchify": "^2.1.1"
+    "react-scripts": "0.4.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "scripts": {
-    "start": "watchify scripts/main.js -o scripts/bundle.js -v -d",
-    "build": "uglifyjs scripts/bundle.js -cm > scripts/bundle.min.js"
-  },
-  "browserify": {
-    "transform": [
-      ["reactify", {"es6": true}],
-      "envify"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
