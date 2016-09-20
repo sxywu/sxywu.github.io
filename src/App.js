@@ -26,19 +26,13 @@ var App = React.createClass({
   render() {
     var style = {
       width: this.state.width,
-      margin: 'auto',
+      margin: '-10px auto',
     };
     var headerStyle = {
       textAlign: 'center',
       backgroundColor: colors.light,
       padding: this.state.padding,
       marginBottom: this.state.margin,
-    };
-    var nameStyle = {
-      fontFamily: 'King Basil',
-      color: colors.blue,
-      fontSize: 48,
-      margin: this.state.margin,
     };
     var mediaStyle = {
       color: colors.pink,
@@ -67,7 +61,6 @@ var App = React.createClass({
       <div className="App" style={style}>
         <div className="Header" style={headerStyle}>
           <img src={logo} role="presentation" />
-          <div style={nameStyle}>sxywu</div>
           <div style={mediaStyle}>
             <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://github.com/sxywu' target='_new'>github</a>
           </div>
