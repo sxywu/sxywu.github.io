@@ -5,9 +5,10 @@ import Remarkable from 'remarkable';
 var md = new Remarkable();
 var Card = React.createClass({
   render() {
-    var width = this.props.width * this.props.cardWidth;
+    var width = this.props.width;
     var style = {
       width,
+      marginBottom: this.props.margin / 2,
     };
     var order = [];
 
@@ -36,27 +37,26 @@ var Card = React.createClass({
       color: this.props.colors.pink,
       // borderBottom: '3px solid',
       fontFamily: 'King Basil',
-      marginTop: 20,
       display: 'inline-block',
+      marginRight: this.props.margin,
     };
     var annotations = _.map(this.props.annotations, (annotation, i) => {
-      var button = this.props.buttons[i];
       var markup = { __html: md.render(annotation) };
+      var buttons = _.map(this.props.buttons[i], (button, j) => {
+        return (<a key={j} href={button[1]} style={buttonStyle} target='_new'>
+          {button[0]} →
+        </a>);
+      });
+      console.log(buttons)
       return (
         <div key={i}>
           <div dangerouslySetInnerHTML={markup} />
-          <a href={button[1]} style={buttonStyle} target='_new'>
-            {button[0]} →
-          </a>
+          {buttons}
         </div>
       );
     });
 
-    if (imageOrientation === 'left') {
-      annotationStyle = Object.assign(annotationStyle, {
-        marginLeft: margin,
-      });
-    }
+    annotationStyle["margin" + _.capitalize(imageOrientation)] = this.props.margin / 2;
     var annotation = (
       <div style={annotationStyle}>
         {annotations}
@@ -66,9 +66,9 @@ var Card = React.createClass({
     if (imageOrientation === 'left') {
       order.push(image);
       order.push(annotation);
-      annotationStyle = Object.assign(annotationStyle, {
-        marginLeft: margin,
-      });
+    } else if (imageOrientation === 'right') {
+      order.push(annotation);
+      order.push(image);
     }
 
     return (

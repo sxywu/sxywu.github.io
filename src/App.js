@@ -16,7 +16,7 @@ var colors = {
 var App = React.createClass({
   getInitialState() {
     return {
-      width: 800,
+      width: 900,
       colors,
       padding: 30,
       margin: 20,
@@ -82,6 +82,7 @@ var App = React.createClass({
         <div style={forStyle}>for product.</div>
 
         <Card {...works.product} {...this.state} />
+        <Card {...works.reactd3} {...this.state} />
       </div>
     );
   }
