@@ -16,12 +16,24 @@ var Cards = React.createClass({
     });
 
     var cards = _.times(cardsPerRow, i => {
-      var cards = _.chain(this.props.data)
-        .filter((data, j) => {
-          return j % cardsPerRow === i;
-        }).map((data, j) => {
-          return (<Card key={j} {...data} {...cardProps} />);
-        }).value();
+      var dotStyle = {
+        color: this.props.colors.blue,
+        textAlign: 'center',
+      };
+      var cards = _.filter(this.props.data, (data, j) => {
+        return j % cardsPerRow === i;
+      });
+      cards = _.map(cards, (data, j) => {
+        // if this is the last card, don't add dots
+        var dot = (j === cards.length - 1) ? null :
+          (<div style={dotStyle}>• •</div>);
+        return (
+          <div>
+            <Card key={j} {...data} {...cardProps} />
+            {dot}
+          </div>
+        );
+      });
       var columnStyle = {
         width: cardWidth,
         display: 'inline-block',

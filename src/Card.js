@@ -37,6 +37,10 @@ var Card = React.createClass({
       // if it's top or bottom, then just let them be auto
       annotationStyle.width = annotationWidth;
       annotationStyle.height = annotationHeight;
+    } else {
+      // if it's top or bottom, allow for dots in the middle with reduced margins
+      style.marginTop = this.props.margin / 4;
+      style.marginBottom = this.props.margin / 4;
     }
 
     // calculate for each annotation
