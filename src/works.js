@@ -8,7 +8,6 @@ import twentyfifteenImage from './images/2015.png';
 import forceImage from './images/force.png';
 import backboned3Image from './images/backboned3.png';
 import backboned3talkImage from './images/backboned3_talk.png';
-import profileImage from './images/profile.png';
 
 export default {
   "product": {
