@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './images/logo.png';
 import works from './works';
 
+import Cards from './Cards';
 import Card from './Card';
 
 var colors = {
@@ -20,6 +21,7 @@ var App = React.createClass({
       colors,
       padding: 30,
       margin: 20,
+      cardsPerRow: 2,
     };
   },
 
@@ -57,6 +59,10 @@ var App = React.createClass({
       marginBottom: this.state.margin / 2,
     };
 
+    var funWorks = [
+      works.filmflowers,
+    ];
+
     return (
       <div className="App" style={style}>
         <div className="Header" style={headerStyle}>
@@ -76,6 +82,13 @@ var App = React.createClass({
 
         <Card {...works.product} {...this.state} />
         <Card {...works.reactd3} {...this.state} />
+
+        <div style={forStyle}>
+          for learning,<br />
+          for fun.
+        </div>
+
+        <Cards data={funWorks} {...this.state} />
       </div>
     );
   }
