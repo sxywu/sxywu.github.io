@@ -46,6 +46,7 @@ var Card = React.createClass({
       // borderBottom: '3px solid',
       fontFamily: 'King Basil',
       display: 'inline-block',
+      marginTop: margin,
       marginRight: this.props.margin,
     };
     var annotations = _.map(this.props.annotations, (annotation, i) => {

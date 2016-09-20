@@ -1,26 +1,17 @@
 @font-face {
-  font-family: "King Basil", cursive;
+  font-family: "King Basil";
   src: url("../font/King-Basil.ttf");
 }
 
 @font-face {
-  font-family: "Baskerville Regular", serif;
+  font-weight: normal;
+  font-family: "Baskerville";
   src: url("../font/LibreBaskerville-Regular.ttf");
 }
 
-@font-face {
-  font-family: "Baskerville Bold", serif;
-  src: url("../font/LibreBaskerville-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Baskerville Italic", serif;
-  src: url("../font/LibreBaskerville-Italic.ttf");
-}
-
 body {
-  font-family: "Baskerville Regular";
-  font-size: 18px;
+  font-family: "Baskerville";
+  font-size: 16px;
   color: #44535d;
 }
 

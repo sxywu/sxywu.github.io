@@ -39,10 +39,9 @@ var App = React.createClass({
     var mediaStyle = {
       color: colors.pink,
       marginTop: 80,
-      fontSize: 20,
     };
     var introStyle = {
-      fontSize: 32,
+      fontSize: 24,
       color: colors.pink,
       textAlign: 'center',
       lineHeight: '48px',
