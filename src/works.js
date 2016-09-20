@@ -160,7 +160,7 @@ Marrying Backbone.js and D3.js.  A write-up of the difficulties we encountered t
     "title": "Marrying Backbone.js and D3.js",
     "startDate": "Dec 16, 2014",
     "type": "talk",
-    "images": [backboned3talkImage, "top"],
+    "images": [backboned3talkImage, "bottom"],
     "annotations": [
       `
 Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all three approaches that I experimented with and what I learned from them.
@@ -179,7 +179,7 @@ Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all 
     "title": "bayd3: BART strike project",
     "startDate": "Nov 11, 2013",
     "type": "talk",
-    "images": [barttalkImage, "bottom"],
+    "images": [barttalkImage, "top"],
     "annotations": [
       `
 A talk explaining the motivations behind my BART strike visualization, and what I learned from the process.
@@ -196,7 +196,7 @@ A talk explaining the motivations behind my BART strike visualization, and what 
     "id": "d3intro_talk",
     "title": "An Introduction to d3.js",
     "type": "talk",
-    "images": [d3introImage, "top"],
+    "images": [d3introImage, "bottom"],
     "annotations": [
       `
 An interactive introduction to D3.  Explains data-binding and the enter-exit-update pattern.

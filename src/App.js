@@ -27,7 +27,6 @@ var App = React.createClass({
       colors,
       padding: 30,
       margin: 20,
-      cardsPerRow: 2,
     };
   },
 
@@ -136,7 +135,7 @@ var App = React.createClass({
           for fun.
         </div>
 
-        <Cards data={funWorks} {...this.state} />
+        <Cards data={funWorks} cardsPerRow={2} {...this.state} />
 
         <div style={forWritingStyle}>
           🎊<br />
@@ -144,7 +143,7 @@ var App = React.createClass({
           give <span className='king-basil'>talks</span> once in a while.
         </div>
 
-        <Cards data={writingWorks} {...this.state} />
+        <Cards data={writingWorks} cardsPerRow={3} {...this.state} />
 
         <div className='king-basil' style={forStoryStyle}>
           💖<br />
