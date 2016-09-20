@@ -1,5 +1,6 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
+import filmflowersImage from './images/filmflowers.png';
 
 export default {
   "product": {
@@ -41,6 +42,21 @@ I also gave a talk about the three different approaches I have experimented with
       ],
       [["Read", "http://slides.com/shirleywu/deck#/"]]
     ]
+  },
+
+  "filmflowers": {
+    "id": "filmflowers",
+    "title": "Film Flowers",
+    "startDate": "Jul 19, 2016",
+    "endDate": "Jul 30, 2016",
+    "type": "build",
+    "images": [filmflowersImage, "top"],
+    "annotations": [
+      `
+Summer blockbusters reimagined as flowers. An experimentation with color.
+      `
+    ],
+    "buttons": [[["View", "http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/"]]]
   },
 
 };
