@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "King Basil", cursive;
+  src: url("../font/King-Basil.ttf");
+}
+
+@font-face {
+  font-family: "Baskerville Regular", serif;
+  src: url("../font/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Baskerville Bold", serif;
+  src: url("../font/LibreBaskerville-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Baskerville Italic", serif;
+  src: url("../font/LibreBaskerville-Italic.ttf");
+}
+
+body {
+  font-family: "Baskerville Regular";
+  font-size: 18px;
+
+}
+
+.king-basil {
+  font-family: "King Basil";
+}
+
+a, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #e68fc3;
+}
+
+a:hover {
+  border-bottom: 1px dashed;
+}
