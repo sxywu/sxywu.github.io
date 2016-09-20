@@ -3,6 +3,8 @@ import reactd3Image from './images/reactd3.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
+import eightykImage from './images/80k.png';
+import twentyfifteenImage from './images/2015.png';
 
 export default {
   "product": {
@@ -89,6 +91,35 @@ A portrait of tweets. Twitter profile pictures in a pointillist fashion, with th
       `
     ],
     "buttons": [[["View", "http://sxywu.com/tweety/"]]]
+  },
+
+  "80k": {
+    "id": "80k",
+    "title": "Annual Income and Cost of Living for BART Employees",
+    "startDate": "Oct 2, 2013",
+    "endDate": "Oct 17, 2013",
+    "type": "build",
+    "images": [eightykImage, "bottom"],
+    "annotations": [
+      `
+Projected annual income and cost of living for a BART employee, depending on the negotiated proposals from the 2013 BART strikes.
+      `
+    ],
+    "buttons": [[["View", "http://sxywu.com/80k"]]]
+  },
+
+  "2015": {
+    "id": "2015",
+    "title": "2015, A Year in Review",
+    "startDate": "Jan 15, 2016",
+    "type": "build",
+    "images": [twentyfifteenImage, "bottom"],
+    "annotations": [
+      `
+My 2015 year in review. A recounting of my work at Illumio and chock-full of screenshots of my side projects and pictures of my travels. A way to remember ☺️
+      `
+    ],
+    "buttons": [[["Read", "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5"]]]
   },
 
 };

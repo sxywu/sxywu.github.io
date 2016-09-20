@@ -50,19 +50,26 @@ var App = React.createClass({
       marginBottom: this.state.margin / 2,
     };
     var forStyle = {
-      fontFamily: 'King Basil',
       fontSize: 36,
       color: colors.blue,
       textAlign: 'center',
       padding: this.state.padding,
       marginBottom: this.state.margin / 2,
     };
+    var forWritingStyle = Object.assign(_.clone(forStyle), {
+      fontSize: 28,
+    });
 
     var funWorks = [
       works.filmflowers,
       works.wongfu,
       works.tweety,
+      works["80k"],
     ];
+    var writingWorks = [
+      works["2015"],
+    ];
+
 
     return (
       <div className="App" style={style}>
@@ -74,22 +81,36 @@ var App = React.createClass({
         </div>
 
         <div style={introStyle}>
+          💖<br />
           Hi, my name is <span className='king-basil'>Shirley</span>.<br />
           I’m a software engineer,<br />
           and I build <span className='king-basil'>data visualizations</span>.
         </div>
 
-        <div style={forStyle}>for product.</div>
+        <div className='king-basil' style={forStyle}>
+          ✨<br />
+          for product.
+        </div>
 
         <Card {...works.product} {...this.state} />
         <Card {...works.reactd3} {...this.state} />
 
-        <div style={forStyle}>
+        <div className='king-basil' style={forStyle}>
+          ✨<br />
           for learning,<br />
           for fun.
         </div>
 
         <Cards data={funWorks} {...this.state} />
+
+        <div style={forWritingStyle}>
+          🎊<br />
+          I also <span className='king-basil'>write</span> and<br />
+          give <span className='king-basil'>talks</span> once in a while.
+        </div>
+
+        <Cards data={writingWorks} {...this.state} />
+
       </div>
     );
   }
