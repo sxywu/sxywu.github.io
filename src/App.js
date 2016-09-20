@@ -1,32 +1,44 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './images/logo.png';
+import works from './works';
+
+import Card from './Card';
 
 var colors = {
   white: '#fff',
   light: '#fafbfc',
-  dark: '#dark',
+  dark: '#44535d',
   blue: '#51aae8',
   pink: '#e68fc3',
   gold: '#f7cd83',
 };
 
-class App extends Component {
+var App = React.createClass({
+  getInitialState() {
+    return {
+      width: 800,
+      colors,
+      padding: 30,
+      margin: 20,
+    };
+  },
+
   render() {
     var style = {
-      width: 800,
+      width: this.state.width,
       margin: 'auto',
     };
     var headerStyle = {
       textAlign: 'center',
       backgroundColor: colors.light,
-      padding: 40,
-      marginBottom: 20,
+      padding: this.state.padding,
+      marginBottom: this.state.margin,
     };
     var nameStyle = {
       fontFamily: 'King Basil',
       color: colors.blue,
       fontSize: 48,
-      margin: 20,
+      margin: this.state.margin,
     };
     var mediaStyle = {
       color: colors.pink,
@@ -39,16 +51,16 @@ class App extends Component {
       textAlign: 'center',
       lineHeight: '48px',
       backgroundColor: colors.light,
-      padding: 40,
-      marginBottom: 20,
+      padding: this.state.padding,
+      marginBottom: this.state.margin / 2,
     };
     var forStyle = {
       fontFamily: 'King Basil',
       fontSize: 36,
       color: colors.blue,
       textAlign: 'center',
-      padding: 40,
-      marginBottom: 20,
+      padding: this.state.padding,
+      marginBottom: this.state.margin / 2,
     };
 
     return (
@@ -68,9 +80,11 @@ class App extends Component {
         </div>
 
         <div style={forStyle}>for product.</div>
+
+        <Card {...works.product} {...this.state} />
       </div>
     );
   }
-}
+});
 
 export default App;
