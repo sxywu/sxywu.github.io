@@ -8,6 +8,8 @@ import twentyfifteenImage from './images/2015.png';
 import forceImage from './images/force.png';
 import backboned3Image from './images/backboned3.png';
 import backboned3talkImage from './images/backboned3_talk.png';
+import barttalkImage from './images/bart_talk.png';
+import d3introImage from './images/d3intro_talk.png';
 
 export default {
   "product": {
@@ -168,6 +170,41 @@ Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all 
       [
         ["Watch", "https://www.youtube.com/watch?v=TqXD0_tGPv8"],
         ["Read", "http://sxywu.com/backbone-d3/"],
+      ]
+    ],
+  },
+
+  "bart_talk": {
+    "id": "bart_talk",
+    "title": "bayd3: BART strike project",
+    "startDate": "Nov 11, 2013",
+    "type": "talk",
+    "images": [barttalkImage, "bottom"],
+    "annotations": [
+      `
+A talk explaining the motivations behind my BART strike visualization, and what I learned from the process.
+      `
+    ],
+    "buttons": [
+      [
+        ["Watch", "https://www.youtube.com/watch?v=Zh2aLYPY16M"],
+      ]
+    ],
+  },
+
+  "d3intro_talk": {
+    "id": "d3intro_talk",
+    "title": "An Introduction to d3.js",
+    "type": "talk",
+    "images": [d3introImage, "top"],
+    "annotations": [
+      `
+An interactive introduction to D3.  Explains data-binding and the enter-exit-update pattern.
+      `
+    ],
+    "buttons": [
+      [
+        ["View", "http://sxywu.com/d3intro/"],
       ]
     ],
   },

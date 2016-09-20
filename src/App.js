@@ -80,6 +80,8 @@ var App = React.createClass({
       works.force,
       works.backboned3,
       works["backboned3_talk"],
+      works["bart_talk"],
+      works["d3intro_talk"],
     ];
 
     var profileStyle = {
