@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './images/logo.png';
-import './App.css';
 
 var colors = {
   white: '#fff',
