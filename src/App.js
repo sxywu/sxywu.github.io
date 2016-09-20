@@ -68,6 +68,9 @@ var App = React.createClass({
     ];
     var writingWorks = [
       works["2015"],
+      works.force,
+      works.backboned3,
+      works["backboned3_talk"],
     ];
 
 

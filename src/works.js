@@ -5,6 +5,9 @@ import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
 import eightykImage from './images/80k.png';
 import twentyfifteenImage from './images/2015.png';
+import forceImage from './images/force.png';
+import backboned3Image from './images/backboned3.png';
+import backboned3talkImage from './images/backboned3_talk.png';
 
 export default {
   "product": {
@@ -116,10 +119,52 @@ Projected annual income and cost of living for a BART employee, depending on the
     "images": [twentyfifteenImage, "bottom"],
     "annotations": [
       `
-My 2015 year in review. A recounting of my work at Illumio and chock-full of screenshots of my side projects and pictures of my travels. A way to remember ☺️
+My 2015 year in review. A recounting of my work at Illumio and chock-full of screenshots of my side projects and pictures of my travels. A way to remember.
       `
     ],
     "buttons": [[["Read", "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5"]]]
+  },
+
+  "force": {
+    "id": "force",
+    "title": "Understanding the Force",
+    "startDate": "Jul 22, 2014",
+    "type": "write",
+    "images": [forceImage, "top"],
+    "annotations": [
+      `
+Understanding the Force.  An explanation of what D3's force layout is, an explanation of how to use it, as well as how it works under the hood.
+      `
+    ],
+    "buttons": [[["Read", "https://medium.com/@sxywu/understanding-the-force-ef1237017d5#.nedspzkwf"]]]
+  },
+
+  "backboned3": {
+    "id": "backboned3",
+    "title": "Marrying Backbone.js and D3.js",
+    "startDate": "May 9, 2013",
+    "type": "write",
+    "images": [backboned3Image, "bottom"],
+    "annotations": [
+      `
+Marrying Backbone.js and D3.js.  A write-up of the difficulties we encountered trying to use Backbone and D3 together, and the solution we came up with.
+      `
+    ],
+    "buttons": [[["Read", "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a7c9c124579e#.gmwv0afuq"]]]
+  },
+
+  "backboned3_talk": {
+    "id": "backboned3_talk",
+    "title": "Marrying Backbone.js and D3.js",
+    "startDate": "Dec 16, 2014",
+    "type": "talk",
+    "images": [backboned3talkImage, "top"],
+    "annotations": [
+      `
+Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all three approaches that I experimented with and what I learned from them.
+      `
+    ],
+    "buttons": [[["Watch", "https://www.youtube.com/watch?v=TqXD0_tGPv8"]]]
   },
 
 };
