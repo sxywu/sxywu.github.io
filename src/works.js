@@ -2,6 +2,7 @@ import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
+import tweetyImage from './images/tweety.png';
 
 export default {
   "product": {
@@ -73,6 +74,21 @@ A visualization of the Youtube channel Wong Fu Productions, and their collaborat
       `
     ],
     "buttons": [[["View code", "https://github.com/sxywu/wongfu"]]]
+  },
+
+  "tweety": {
+    "id": "tweety",
+    "title": "tweety",
+    "startDate": "Nov 18, 2015",
+    "endDate": "Dec 22, 2015",
+    "type": "build",
+    "images": [tweetyImage, "top"],
+    "annotations": [
+      `
+A portrait of tweets. Twitter profile pictures in a pointillist fashion, with their latest tweets mapped to each dot. An exercise in HTML5 canvas.
+      `
+    ],
+    "buttons": [[["View", "http://sxywu.com/tweety/"]]]
   },
 
 };
