@@ -215,21 +215,18 @@ When I was a kid, I loved two things: math and art; I wanted to be a painter or 
 
 So naturally, my eighteen-year-old self decided that business would be the exact opposite and be my raison d'être.
 
-Fast-forward three years to my junior year, and I realized I hated my business classes and adored the few Computer Science classes I took.  When I completed my summer internship at an investment bank, I knew that I couldn't go back.  I decided that I would focus my senior year on completing a CS minor and looking for a full-time job in software engineering.
+Fast-forward three years to my junior year, and I realized I abhored my business classes and adored the few Computer Science classes I took.  When I completed my summer internship at an investment bank, I knew that I couldn't go back.  I decided that I would focus my senior year on completing a CS minor and looking for a full-time job in software engineering.
 
 (My friends told me they had expected this of me all along: "why did you even go into business, anyway?")
 
-And somehow, miraculously, I landed a full-time position at Splunk post-graduation.  I was beside myself with relief and joy.  I was introduced to D3 as part of my job, and slowly fell in love with its genius.  By the time I left, I was the resident "d3/dataviz expert".
+And somehow, miraculously, I landed a full-time position at Splunk post-graduation.  (I was beside myself with relief and joy.)  I was introduced to D3 as part of my job, and slowly fell in love with its genius.  I adored D3 and the broader field of data visualization; they felt like a beautiful combination of art and code.
 
-When I started at Illumio, I was happy with my technical knowledge, but wanted to apply it and help build a long-term project from the ground up.  Illumination allowed me to do that; I learned so much about teamwork, and the joys and pitfalls of building out a piece of the product from its inception.
+When I started at Illumio, I was happy with my technical knowledge, but wanted to apply it and build a long-term project from the ground up.  Illumination allowed me to do that; I learned so much about teamwork, and the joys and pitfalls of building out a piece of the product from its inception.
 
-I've recently left Illumio.  I'm hoping to spend more time working on my side projects, and exploring what kind of industries and projects excite me (I believe us millennials call this "soul-searching.").  I'm trying my hand at freelancing - something I've always wanted to do - and hoping that it'll give me the luxury of diversity in the projects I work on.
+I've recently left Illumio.  I'm spending my time learning and exploring the potentials of data visualization, and its intersection of math, art, and code.  I'm trying my hand at freelancing - something I've always wanted to do - and hoping that it'll give me the luxury of diversity in the projects I work on, and the opportunity to see what kind of industries and projects excite me (I believe us millennials call this "soul-searching.").
 
-(My coworkers told me freelancing perfect for me, what with my restless wanderlust and all.)
+(My ex-coworkers also told me that freelancing was perfect for me, what with my restless wanderlust and all.)
 
-It's a great unknown for me going forward, but I am comforted with a knowlege: I am doing exactly what I loved as a kid - math and art - and what I love as an adult - coding.
-
-So I must be doing something right.
+It's a great unknown for me going forward, but I am comforted with a knowlege: I am doing exactly what I loved as a kid, and what I love as an adult.  And I am excited to see where I go from here.
       `
-
 };
