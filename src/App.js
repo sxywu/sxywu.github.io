@@ -44,7 +44,7 @@ var App = React.createClass({
     };
     var mediaStyle = {
       color: colors.pink,
-      marginTop: 80,
+      marginTop: 100,
     };
     var introStyle = {
       fontSize: 24,
@@ -108,6 +108,7 @@ var App = React.createClass({
         <div className="Header" style={headerStyle}>
           <img src={logo} role="presentation" />
           <div style={mediaStyle}>
+            <h2>💌</h2>
             <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://github.com/sxywu' target='_new'>github</a>
           </div>
         </div>
@@ -154,10 +155,13 @@ var App = React.createClass({
         </div>
 
         <div className='Footer' style={footerStyle}>
-          <div className='king-basil' style={forStoryStyle}>hire me.</div>
+          <div className='king-basil' style={forStoryStyle}>
+            let’s<br />
+            work together.
+          </div>
           <h2>💌</h2>
           <div style={footerMediaStyle}>
-            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
+            <a href='https://www.linkedin.com/in/shirley-xueyang-wu-b71ab022' target='_new'>linkedin</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
           </div>
         </div>
 
