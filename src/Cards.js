@@ -12,7 +12,7 @@ var Cards = React.createClass({
     }
 
     var cardProps = Object.assign(_.clone(this.props), {
-      width: cardWidth - margin,
+      width: cardWidth,
     });
 
     var cards = _.times(cardsPerRow, i => {
