@@ -25,7 +25,3 @@ a, a:visited, a:link, a:active {
   color: #e68fc3;
   cursor: pointer;
 }
-
-a:hover {
-  border-bottom: 1px dashed;
-}

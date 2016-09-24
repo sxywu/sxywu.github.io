@@ -17,7 +17,12 @@ var Card = React.createClass({
     var imageOrientation = this.props.images[1];
     var imageWidth = this.props.images[2] || '100%';
     var imageHeight = this.props.images[3] || 'auto';
-    var image = (<img src={imageSrc} width={imageWidth} height={imageHeight} role="presentation" />);
+    // have the image linked to whatever the first button link is
+    var image = (
+      <a href={this.props.buttons[0][0][1]} target='_new'>
+        <img src={imageSrc} width={imageWidth} height={imageHeight} role="presentation" />
+      </a>
+    );
 
     // now calculate annotation width
     var margin = this.props.margin / 2;
@@ -40,7 +45,6 @@ var Card = React.createClass({
     } else {
       // if it's top or bottom, allow for dots in the middle with reduced margins
       style.marginTop = this.props.margin / 4;
-      style.marginBottom = this.props.margin / 4;
     }
 
     // calculate for each annotation
