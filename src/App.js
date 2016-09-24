@@ -70,8 +70,10 @@ var App = React.createClass({
 
     var funWorks = [
       works.filmflowers,
-      works.wongfu,
       works.tweety,
+      works.wongfu,
+      works.visfest,
+      works.expenses,
       works["80k"],
     ];
     var writingWorks = [

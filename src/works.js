@@ -4,6 +4,8 @@ import datasketchesImage from './images/datasketches.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
+import visfestImage from './images/visfest.png';
+import expensesImage from './images/expenses.png';
 import eightykImage from './images/80k.png';
 import twentyfifteenImage from './images/2015.png';
 import forceImage from './images/force.png';
@@ -63,7 +65,7 @@ I also gave a talk about the three different approaches I have experimented with
     "endDate": "Jun 30, 2017",
     "type": "build",
     "annotationHeight": 350,
-    "images": [datasketchesImage, "right", 391, 350],
+    "images": [datasketchesImage, "left", 391, 350],
     "annotations": [
       `
 ### Data Sketch|es
@@ -102,7 +104,7 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
     "startDate": "Mar 13, 2014",
     "endDate": "Apr 17, 2016",
     "type": "build",
-    "images": [wongfuImage, "bottom"],
+    "images": [wongfuImage, "top"],
     "annotations": [
       `
 ### Wong Fu & Friends
@@ -120,7 +122,7 @@ A visualization of the Youtube channel Wong Fu Productions, and their collaborat
     "startDate": "Nov 18, 2015",
     "endDate": "Dec 22, 2015",
     "type": "build",
-    "images": [tweetyImage, "top"],
+    "images": [tweetyImage, "bottom"],
     "annotations": [
       `
 ### Tweety
@@ -132,6 +134,48 @@ A portrait of tweets. Twitter profile pictures in a pointillist fashion, with th
     "buttons": [[
       ["View", "http://sxywu.com/tweety/"],
       ["Code", "https://github.com/sxywu/tweety"]
+    ]]
+  },
+
+  "visfest": {
+    "id": "visfest",
+    "title": "viSFest block submissions",
+    "startDate": "Oct 24, 2015",
+    "endDate": "Oct 26, 2015",
+    "type": "build",
+    "images": [visfestImage, "bottom"],
+    "annotations": [
+      `
+### Visfest
+A visualization of all the bl.ocks submitted to the [2015 D3.Unconf](http://visfest.com/d3unconf-2015/), organized by proximity to their most frequently used d3 functions.
+
+##### *built with D3.js.*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://sxywu.com/visfest/"],
+      ["Code", "https://github.com/sxywu/visfest"]
+    ]]
+  },
+
+  "expenses": {
+    "id": "expenses",
+    "title": "A Simple Expense App",
+    "startDate": "Feb 15, 2015",
+    "endDate": "Jul 12, 2015",
+    "type": "build",
+    "images": [expensesImage, "top"],
+    "annotations": [
+      `
+### A Simple Expense App
+An expense-tracking app, built as an example for my blog post [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3#.45ai7qjrd).  Allows user to add, edit, delete, and categorize expenses with an accompanying visual.
+
+##### *built with D3.js, React.js, and Flux.*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://sxywu.com/expenses/"],
+      ["Code", "https://github.com/sxywu/expenses"]
     ]]
   },
 
