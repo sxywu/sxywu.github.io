@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import Remarkable from 'remarkable';
 
-var md = new Remarkable();
+var md = new Remarkable({linkTarget: '_new'});
 var Card = React.createClass({
   render() {
     var width = this.props.width;

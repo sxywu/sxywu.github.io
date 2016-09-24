@@ -1,5 +1,6 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
+import datasketchesImage from './images/datasketches.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
@@ -51,6 +52,25 @@ I also gave a talk about the three different approaches I have experimented with
       ],
       [["Read", "http://slides.com/shirleywu/deck#/"]]
     ]
+  },
+
+  "datasketches": {
+    "id": "datasketches",
+    "title": "data sketch|es: a Nadieh & Shirley collaboration",
+    "startDate": "Jul 1, 2016",
+    "endDate": "Jun 30, 2017",
+    "type": "build",
+    "annotationHeight": 350,
+    "images": [datasketchesImage, "right", 391, 350],
+    "annotations": [
+      `
+### data sketch|es
+A twelve-month collaboration with the brilliant [Nadieh Bremer](https://twitter.com/NadiehBremer) of [Visual Cinnamon](http://www.visualcinnamon.com/).
+
+Each month, we choose a topic and build a visualization by the end of the month; an opportunity to experiment and create.  In the process, we document the trials and successes we faced wrangling the data, sketching, and coding the visualization.
+      `
+    ],
+    "buttons": [[["View", "http://www.datasketch.es/"], ["Twitter", "https://twitter.com/datasketches"]]]
   },
 
   "filmflowers": {

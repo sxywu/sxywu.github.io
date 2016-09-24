@@ -131,6 +131,13 @@ var App = React.createClass({
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
+          for exploration.
+        </div>
+
+        <Card {...works.datasketches} {...this.state} />
+
+        <div className='king-basil' style={forStyle}>
+          ✨<br />
           for learning,<br />
           for fun.
         </div>
