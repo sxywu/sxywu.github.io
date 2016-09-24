@@ -22,6 +22,7 @@ export default {
     "images": [productImage, "left", 230, 350],
     "annotations": [
       `
+### OpenVis Conf 2016
 For two and a half years, I worked at Illumio on a part of the product called Illumination - a visualization of application traffic, and a tool for securing it. I helped build it up from scratch, starting from a d3 force layout, to architecting a refactor from Backbone to React, to scaling it to meet the demands of our customers' large environments.
 
 This is the talk I gave at OpenVis Conf about my experiences, the challenges we faced, and the lessons we learned.
@@ -39,7 +40,8 @@ This is the talk I gave at OpenVis Conf about my experiences, the challenges we 
     "images": [reactd3Image, "right", 288, 350],
     "annotations": [
       `
-For a more technical writeup of some of the challenges we faced, I wrote a more detailed account of how we moved from Backbone to React. In particular, it covers our reasons for migrating, as well as the difficulties we faced pairing React with D3, and provides an example app to demonstrate our approach.
+### On D3, React, and a little bit of Flux
+For a more technical writeup of some of the challenges we faced, I wrote a more detailed account of how we moved from Backbone to React. It also covers the difficulties we faced pairing React with D3, and provides an example app to demonstrate our approach.
       `,
       `
 I also gave a talk about the three different approaches I have experimented with using React and D3 together.
@@ -64,7 +66,7 @@ I also gave a talk about the three different approaches I have experimented with
     "images": [datasketchesImage, "right", 391, 350],
     "annotations": [
       `
-### data sketch|es
+### Data Sketch|es
 A twelve-month collaboration with the brilliant [Nadieh Bremer](https://twitter.com/NadiehBremer) of [Visual Cinnamon](http://www.visualcinnamon.com/).
 
 Each month, we choose a topic and build a visualization by the end of the month; an opportunity to experiment and create.  In the process, we document the trials and successes we faced wrangling the data, sketching, and coding the visualization.
@@ -82,10 +84,16 @@ Each month, we choose a topic and build a visualization by the end of the month;
     "images": [filmflowersImage, "top"],
     "annotations": [
       `
+### Film Flowers
 Summer blockbusters reimagined as flowers. An experimentation with color.
+
+##### *built with D3.js.*
       `
     ],
-    "buttons": [[["View", "http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/"]]]
+    "buttons": [[
+      ["View", "http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/"],
+      ["Code", "http://bl.ocks.org/sxywu/d612c6c653fb8b4d7ff3d422be164a5d"]
+    ]]
   },
 
   "wongfu": {
@@ -97,10 +105,13 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
     "images": [wongfuImage, "bottom"],
     "annotations": [
       `
+### Wong Fu & Friends
 A visualization of the Youtube channel Wong Fu Productions, and their collaborations with other channels over the years.  A work-in-progress.
+
+##### *built with D3.js, React.js, Flux, and the Youtube API.*
       `
     ],
-    "buttons": [[["View code", "https://github.com/sxywu/wongfu"]]]
+    "buttons": [[["Code", "https://github.com/sxywu/wongfu"]]]
   },
 
   "tweety": {
@@ -112,10 +123,16 @@ A visualization of the Youtube channel Wong Fu Productions, and their collaborat
     "images": [tweetyImage, "top"],
     "annotations": [
       `
-A portrait of tweets. Twitter profile pictures in a pointillist fashion, with their latest tweets mapped to each dot. An exercise in HTML5 canvas.
+### Tweety
+A portrait of tweets. Twitter profile pictures in a pointillist fashion, with their latest tweets mapped to each dot. An exercise in HTML5 Canvas.
+
+##### *built with D3.js, React.js, HTML5 Canvas, and the Twitter API.*
       `
     ],
-    "buttons": [[["View", "http://sxywu.com/tweety/"]]]
+    "buttons": [[
+      ["View", "http://sxywu.com/tweety/"],
+      ["Code", "https://github.com/sxywu/tweety"]
+    ]]
   },
 
   "80k": {
@@ -127,10 +144,16 @@ A portrait of tweets. Twitter profile pictures in a pointillist fashion, with th
     "images": [eightykImage, "bottom"],
     "annotations": [
       `
+### 80k
 Projected annual income and cost of living for a BART employee, depending on the negotiated proposals from the 2013 BART strikes.
+
+##### *built with D3.js and Backbone.js*
       `
     ],
-    "buttons": [[["View", "http://sxywu.com/80k"]]]
+    "buttons": [[
+      ["View", "http://sxywu.com/80k"],
+      ["Code", "https://github.com/sxywu/80k"]
+    ]]
   },
 
   "2015": {
@@ -141,7 +164,8 @@ Projected annual income and cost of living for a BART employee, depending on the
     "images": [twentyfifteenImage, "bottom"],
     "annotations": [
       `
-My 2015 year in review. A recounting of my work at Illumio and chock-full of screenshots of my side projects and pictures of my travels. A way to remember.
+### 2015, A Year in Review
+A recounting of my work at Illumio and chock-full of screenshots of my side projects and pictures of my travels. A way to remember.
       `
     ],
     "buttons": [[["Read", "https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1#.sg87p1bb5"]]]
@@ -155,7 +179,8 @@ My 2015 year in review. A recounting of my work at Illumio and chock-full of scr
     "images": [forceImage, "top"],
     "annotations": [
       `
-Understanding the Force.  An explanation of what D3's force layout is, an explanation of how to use it, as well as how it works under the hood.
+### Understanding the Force
+An explanation of what D3's force layout is, an explanation of how to use it, as well as how it works under the hood.
       `
     ],
     "buttons": [[["Read", "https://medium.com/@sxywu/understanding-the-force-ef1237017d5#.nedspzkwf"]]]
@@ -169,7 +194,8 @@ Understanding the Force.  An explanation of what D3's force layout is, an explan
     "images": [backboned3Image, "bottom"],
     "annotations": [
       `
-Marrying Backbone.js and D3.js.  A write-up of the difficulties we encountered trying to use Backbone and D3 together, and the solution we came up with.
+### Marrying Backbone.js and D3.js
+A write-up of the difficulties we encountered trying to use Backbone and D3 together, and the solution we came up with.
       `
     ],
     "buttons": [[["Read", "https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a7c9c124579e#.gmwv0afuq"]]]
@@ -183,7 +209,8 @@ Marrying Backbone.js and D3.js.  A write-up of the difficulties we encountered t
     "images": [backboned3talkImage, "bottom"],
     "annotations": [
       `
-Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all three approaches that I experimented with and what I learned from them.
+### BackboneConf 2014
+A follow-up talk to the Backbone.js+D3.js blog posts, covers all three approaches that I experimented with and what I learned from them.
       `
     ],
     "buttons": [
@@ -202,6 +229,7 @@ Marrying Backbone.js and D3.js.  A follow-up talk to the blog posts, covers all 
     "images": [barttalkImage, "top"],
     "annotations": [
       `
+### BayD3: BART Strike Project
 A talk explaining the motivations behind my BART strike visualization, and what I learned from the process.
       `
     ],
@@ -219,7 +247,8 @@ A talk explaining the motivations behind my BART strike visualization, and what 
     "images": [d3introImage, "bottom"],
     "annotations": [
       `
-An interactive introduction to D3.  Explains data-binding and the enter-exit-update pattern.
+### An Interactive Introduction to D3.js
+Explains data-binding and the enter-exit-update pattern.
       `
     ],
     "buttons": [

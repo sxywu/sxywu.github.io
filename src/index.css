@@ -25,3 +25,7 @@ a, a:visited, a:link, a:active {
   color: #e68fc3;
   cursor: pointer;
 }
+
+.Card h3 {
+  margin-top: 0;
+}
