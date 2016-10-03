@@ -1,6 +1,7 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 import datasketchesImage from './images/datasketches.png';
+import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
@@ -77,6 +78,27 @@ Each month, we choose a topic and build a visualization by the end of the month;
     "buttons": [[["View", "http://www.datasketch.es/"], ["Twitter", "https://twitter.com/datasketches"]]]
   },
 
+  "travel": {
+    "id": "travel",
+    "title": "Four Years of Vacations in 20,000 Colors",
+    "startDate": "Sep 11, 2016",
+    "endDate": "Oct 2, 2016",
+    "type": "build",
+    "images": [travelImage, "top"],
+    "annotations": [
+      `
+  ### Four Years of Vacations in 20,000 Colors
+  4,000 photos over 13 trips, their colors visualized.  Further experimentation in color.
+
+  ##### *built with D3.js, React.js, and HTML5 Canvas, for September Datasketch|es.*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://sxywu.com/travel/"],
+      ["Read", "http://www.datasketch.es/september/"]
+    ]]
+  },
+
   "filmflowers": {
     "id": "filmflowers",
     "title": "Film Flowers",
@@ -89,12 +111,12 @@ Each month, we choose a topic and build a visualization by the end of the month;
 ### Film Flowers
 Summer blockbusters reimagined as flowers. An experimentation with color.
 
-##### *built with D3.js.*
+##### *built with D3.js, for July Datasketch|es.*
       `
     ],
     "buttons": [[
       ["View", "http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/"],
-      ["Code", "http://bl.ocks.org/sxywu/d612c6c653fb8b4d7ff3d422be164a5d"]
+      ["Read", "http://www.datasketch.es/july/"]
     ]]
   },
 

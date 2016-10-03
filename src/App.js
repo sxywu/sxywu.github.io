@@ -68,8 +68,11 @@ var App = React.createClass({
       color: colors.pink,
     });
 
-    var funWorks = [
+    var experimentWorks = [
+      works.travel,
       works.filmflowers,
+    ];
+    var funWorks = [
       works.tweety,
       works.wongfu,
       works.visfest,
@@ -137,6 +140,7 @@ var App = React.createClass({
         </div>
 
         <Card {...works.datasketches} {...this.state} />
+        <Cards data={experimentWorks} cardsPerRow={2} {...this.state} />
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
