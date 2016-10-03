@@ -1,6 +1,6 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
-import datasketchesImage from './images/datasketches.png';
+// import datasketchesImage from './images/datasketches.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
@@ -65,8 +65,7 @@ I also gave a talk about the three different approaches I have experimented with
     "startDate": "Jul 1, 2016",
     "endDate": "Jun 30, 2017",
     "type": "build",
-    "annotationHeight": 350,
-    "images": [datasketchesImage, "left", 391, 350],
+    "images": null,
     "annotations": [
       `
 ### Data Sketch|es
@@ -165,7 +164,7 @@ A portrait of tweets. Twitter profile pictures in a pointillist fashion, with th
     "startDate": "Oct 24, 2015",
     "endDate": "Oct 26, 2015",
     "type": "build",
-    "images": [visfestImage, "bottom"],
+    "images": [visfestImage, "top"],
     "annotations": [
       `
 ### Visfest
@@ -186,7 +185,7 @@ A visualization of all the bl.ocks submitted to the [2015 D3.Unconf](http://visf
     "startDate": "Feb 15, 2015",
     "endDate": "Jul 12, 2015",
     "type": "build",
-    "images": [expensesImage, "top"],
+    "images": [expensesImage, "bottom"],
     "annotations": [
       `
 ### A Simple Expense App
@@ -207,7 +206,7 @@ An expense-tracking app, built as an example for my blog post [On D3, React, and
     "startDate": "Oct 2, 2013",
     "endDate": "Oct 17, 2013",
     "type": "build",
-    "images": [eightykImage, "bottom"],
+    "images": [eightykImage, "top"],
     "annotations": [
       `
 ### 80k

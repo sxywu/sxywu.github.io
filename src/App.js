@@ -74,7 +74,7 @@ var App = React.createClass({
     ];
     var funWorks = [
       works.tweety,
-      works.wongfu,
+      // works.wongfu,
       works.visfest,
       works.expenses,
       works["80k"],
