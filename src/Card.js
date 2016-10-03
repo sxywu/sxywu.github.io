@@ -13,16 +13,19 @@ var Card = React.createClass({
     var order = [];
 
     // images
-    var imageSrc = this.props.images[0];
-    var imageOrientation = this.props.images[1];
-    var imageWidth = this.props.images[2] || '100%';
-    var imageHeight = this.props.images[3] || 'auto';
-    // have the image linked to whatever the first button link is
-    var image = (
-      <a href={this.props.buttons[0][0][1]} target='_new'>
-        <img src={imageSrc} width={imageWidth} height={imageHeight} role="presentation" />
-      </a>
-    );
+    var image = null;
+    if (this.props.images) {
+      var imageSrc = this.props.images[0];
+      var imageOrientation = this.props.images[1];
+      var imageWidth = this.props.images[2] || '100%';
+      var imageHeight = this.props.images[3] || 'auto';
+      // have the image linked to whatever the first button link is
+      image = (
+        <a href={this.props.buttons[0][0][1]} target='_new'>
+          <img src={imageSrc} width={imageWidth} height={imageHeight} role="presentation" />
+        </a>
+      );
+    }
 
     // now calculate annotation width
     var margin = this.props.margin / 2;
@@ -36,7 +39,9 @@ var Card = React.createClass({
       display: 'inline-block',
       verticalAlign: 'top',
     };
-    annotationStyle["margin" + _.capitalize(imageOrientation)] = this.props.margin / 2;
+    if (imageOrientation) {
+      annotationStyle["margin" + _.capitalize(imageOrientation)] = this.props.margin / 2;
+    }
     if (imageOrientation === 'left' || imageOrientation === 'right') {
       // only set specific pixel widths/heights if image is left or right
       // if it's top or bottom, then just let them be auto
@@ -84,6 +89,8 @@ var Card = React.createClass({
     } else if (imageOrientation === 'right' || imageOrientation === 'bottom') {
       order.push(annotation);
       order.push(image);
+    } else {
+      order.push(annotation);
     }
 
     return (
