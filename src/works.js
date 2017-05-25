@@ -1,6 +1,8 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 // import datasketchesImage from './images/datasketches.png';
+import hamiltonImage from './images/hamilton.png';
+import debateImage from './images/debate.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
@@ -57,6 +59,45 @@ I also gave a talk about the three different approaches I have experimented with
       ],
       [["Read", "http://slides.com/shirleywu/deck#/"]]
     ]
+  },
+
+  "hamilton": {
+    "id": "hamilton",
+    "title": "An Interactive Visualization of Every Line in Hamilton",
+    "startDate": "Aug 28, 2016",
+    "endDate": "Dec 13, 2016",
+    "type": "build",
+    "images": [hamiltonImage, "top"],
+    "annotations": [
+      `
+### An Interactive Visualization of Every Line in Hamilton
+Analyzing 21,000 words for relational and thematic insights.
+
+##### *built with D3.js, React.js, and HTML5 Canvas for [The Pudding](https://pudding.cool/).*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://pudding.cool/2017/03/hamilton/index.html"],
+      ["Read", "http://www.datasketch.es/november/"]
+    ]]
+  },
+
+  "debate": {
+    "id": "debate",
+    "title": "The Political Brain",
+    "startDate": "Oct 20, 2016",
+    "endDate": "Oct 28, 2016",
+    "type": "build",
+    "images": [debateImage, "top"],
+    "annotations": [
+      `
+### The Political Brain
+How the final presidential debate played on the subconscious minds of voters.
+
+##### *built with D3.js, and React.js, for [BRAINSIGHTS](http://brainsights.ca/).*
+      `
+    ],
+    "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
   },
 
   "datasketches": {

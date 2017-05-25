@@ -68,7 +68,11 @@ var App = React.createClass({
       color: colors.pink,
     });
 
-    var experimentWorks = [
+    var experimentWorks1 = [
+      works.hamilton,
+      works.debate,
+    ];
+    var experimentWorks2 = [
       works.travel,
       works.filmflowers,
     ];
@@ -136,11 +140,13 @@ var App = React.createClass({
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
+          for story,<br />
           for exploration.
         </div>
 
+        <Cards data={experimentWorks1} cardsPerRow={2} {...this.state} />
         <Card {...works.datasketches} {...this.state} />
-        <Cards data={experimentWorks} cardsPerRow={2} {...this.state} />
+        <Cards data={experimentWorks2} cardsPerRow={2} {...this.state} />
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
