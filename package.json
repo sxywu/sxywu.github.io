@@ -11,6 +11,7 @@
     "react-dom": "^15.3.2",
     "remarkable": "^1.6.2"
   },
+  "homepage" : "http://sxywu.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
