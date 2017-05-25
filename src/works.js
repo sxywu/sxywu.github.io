@@ -4,6 +4,7 @@ import reactd3Image from './images/reactd3.png';
 import cultureImage from './images/culture.png';
 import hamiltonImage from './images/hamilton.png';
 import debateImage from './images/debate.png';
+import obamasImage from './images/obamas.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
@@ -120,6 +121,27 @@ How the final presidential debate played on the subconscious minds of voters.
       `
     ],
     "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
+  },
+
+  "obamas": {
+    "id": "obamas",
+    "title": "Putting Emojis on the President's Face",
+    "startDate": "Oct 8, 2016",
+    "endDate": "Nov 8, 2016",
+    "type": "build",
+    "images": [obamasImage, "top"],
+    "annotations": [
+      `
+### Putting Emojis on the President's Face
+The number of times POTUS and FLOTUS laughed on late-night.
+
+##### *built with D3.js, React.js, Google Cloud, and a bunch of Node packages for October Data Sketch|es.*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://sxywu.com/obamas/"],
+      ["Read", "http://www.datasketch.es/october/"]
+    ]]
   },
 
   "datasketches": {
