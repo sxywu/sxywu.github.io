@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import _ from 'lodash';
 import Remarkable from 'remarkable';
 
 var md = new Remarkable({linkTarget: '_new'});
-var Card = React.createClass({
+class Card extends Component {
   render() {
     var width = this.props.width;
     var style = {
@@ -99,6 +99,6 @@ var Card = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default Card;

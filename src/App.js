@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import _ from 'lodash';
 import Remarkable from 'remarkable';
 
@@ -20,15 +20,16 @@ var colors = {
   gold: '#f7cd83',
 };
 
-var App = React.createClass({
-  getInitialState() {
-    return {
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
       width: 900,
       colors,
       padding: 30,
       margin: 20,
     };
-  },
+  }
 
   render() {
     var style = {
@@ -190,6 +191,6 @@ var App = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default App;

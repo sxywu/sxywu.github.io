@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import _ from 'lodash';
 import Card from './Card';
 
-var Cards = React.createClass({
+class Cards extends Component {
   render() {
     var margin = this.props.margin / 2;
     var cardsPerRow = this.props.cardsPerRow;
@@ -55,6 +55,6 @@ var Cards = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default Cards;
