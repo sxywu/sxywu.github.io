@@ -69,6 +69,7 @@ var App = React.createClass({
     });
 
     var experimentWorks1 = [
+      works.culture,
       works.hamilton,
       works.debate,
     ];

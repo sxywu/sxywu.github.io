@@ -1,6 +1,7 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 // import datasketchesImage from './images/datasketches.png';
+import cultureImage from './images/culture.png';
 import hamiltonImage from './images/hamilton.png';
 import debateImage from './images/debate.png';
 import travelImage from './images/travel.png';
@@ -59,6 +60,27 @@ I also gave a talk about the three different approaches I have experimented with
       ],
       [["Read", "http://slides.com/shirleywu/deck#/"]]
     ]
+  },
+
+  "culture": {
+    "id": "culture",
+    "title": "Explore Adventure",
+    "startDate": "Jan 29, 2017",
+    "endDate": "Apr 30, 2017",
+    "type": "build",
+    "images": [cultureImage, "top"],
+    "annotations": [
+      `
+### EXPLORE ADVENTURE
+Digging through a decade of Google travel searches.
+
+##### *built with D3.js, React.js, and Greensock for [Google News Lab](https://newslab.withgoogle.com/).*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://explore-adventure.com/"],
+      ["Read", "http://www.datasketch.es/march/"]
+    ]]
   },
 
   "hamilton": {
