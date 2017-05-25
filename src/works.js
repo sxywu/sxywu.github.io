@@ -9,6 +9,7 @@ import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
 import tweetyImage from './images/tweety.png';
+import visfest2Image from './images/visfest2.png';
 import visfestImage from './images/visfest.png';
 import expensesImage from './images/expenses.png';
 import eightykImage from './images/80k.png';
@@ -243,16 +244,37 @@ A portrait of tweets. Twitter profile pictures in a pointillist fashion, with th
     ]]
   },
 
+  "visfest2": {
+    "id": "visfest2",
+    "title": "viSFest block submissions",
+    "startDate": "Oct 3, 2016",
+    "endDate": "Oct 15, 2016",
+    "type": "build",
+    "images": [visfest2Image, "top"],
+    "annotations": [
+      `
+  ### Visfest 2016
+  A visualization of all the bl.ocks submitted to the [2016 D3.Unconf](http://visfest.com/d3unconf-2016/), tesselated as hexagons.
+
+  ##### *built with D3.js.*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://bl.ocks.org/sxywu/raw/82144236b9a920f77e3af1776d265c57/"],
+      ["Code", "http://bl.ocks.org/sxywu/82144236b9a920f77e3af1776d265c57"]
+    ]]
+  },
+
   "visfest": {
     "id": "visfest",
     "title": "viSFest block submissions",
     "startDate": "Oct 24, 2015",
     "endDate": "Oct 26, 2015",
     "type": "build",
-    "images": [visfestImage, "top"],
+    "images": [visfestImage, "bottom"],
     "annotations": [
       `
-### Visfest
+### Visfest 2015
 A visualization of all the bl.ocks submitted to the [2015 D3.Unconf](http://visfest.com/d3unconf-2015/), organized by proximity to their most frequently used d3 functions.
 
 ##### *built with D3.js.*
@@ -270,7 +292,7 @@ A visualization of all the bl.ocks submitted to the [2015 D3.Unconf](http://visf
     "startDate": "Feb 15, 2015",
     "endDate": "Jul 12, 2015",
     "type": "build",
-    "images": [expensesImage, "bottom"],
+    "images": [expensesImage, "top"],
     "annotations": [
       `
 ### A Simple Expense App
@@ -291,7 +313,7 @@ An expense-tracking app, built as an example for my blog post [On D3, React, and
     "startDate": "Oct 2, 2013",
     "endDate": "Oct 17, 2013",
     "type": "build",
-    "images": [eightykImage, "top"],
+    "images": [eightykImage, "bottom"],
     "annotations": [
       `
 ### 80k

@@ -79,8 +79,9 @@ var App = React.createClass({
       works.filmflowers,
     ];
     var funWorks = [
+      works.visfest2,
       works.tweety,
-      // works.wongfu,
+      works.wongfu,
       works.visfest,
       works.expenses,
       works["80k"],
