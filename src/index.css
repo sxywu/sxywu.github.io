@@ -1,12 +1,12 @@
 @font-face {
   font-family: "King Basil";
-  src: url("../font/King-Basil.ttf");
+  src: url("./font/King-Basil.ttf");
 }
 
 @font-face {
   font-weight: normal;
   font-family: "Baskerville";
-  src: url("../font/LibreBaskerville-Regular.ttf");
+  src: url("./font/LibreBaskerville-Regular.ttf");
 }
 
 body {
