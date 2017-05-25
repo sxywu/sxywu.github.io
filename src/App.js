@@ -133,14 +133,6 @@ var App = React.createClass({
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
-          for product.
-        </div>
-
-        <Card {...works.product} {...this.state} />
-        <Card {...works.reactd3} {...this.state} />
-
-        <div className='king-basil' style={forStyle}>
-          ✨<br />
           for story,<br />
           for exploration.
         </div>
@@ -151,7 +143,14 @@ var App = React.createClass({
 
         <div className='king-basil' style={forStyle}>
           ✨<br />
-          for learning,<br />
+          for product.
+        </div>
+
+        <Card {...works.product} {...this.state} />
+        <Card {...works.reactd3} {...this.state} />
+
+        <div className='king-basil' style={forStyle}>
+          ✨<br />
           for fun.
         </div>
 
