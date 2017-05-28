@@ -127,7 +127,7 @@ class App extends Component {
         <div style={introStyle}>
           💖<br />
           Hi, my name is <span className='king-basil'>Shirley</span>.<br />
-          I’m a software engineer,<br />
+          I’m a freelance software engineer,<br />
           and I build <span className='king-basil'>data visualizations</span>.
         </div>
 
