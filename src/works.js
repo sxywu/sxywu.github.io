@@ -330,8 +330,9 @@ Projected annual income and cost of living for a BART employee, depending on the
     "images": [femImage, "top"],
     "annotations": [
       `
-### Frontend Masters
-#### Intro to Data Visualization with D3.js V4
+### Frontend Masters: Introduction to Data Visualization with D3.js V4
+
+A one-day workshop with Frontend Masters, where I go through the core concepts of D3 and walk the audience through creating charts from start to finish.
       `
     ],
 
