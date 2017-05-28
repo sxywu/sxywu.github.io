@@ -83,18 +83,12 @@ class App extends Component {
       works.visfest2,
       works.tweety,
       works.wongfu,
-      works.visfest,
-      works.expenses,
+      // works.visfest,
+      // works.expenses,
       works["80k"],
     ];
     var writingWorks = [
       works.frontendmasters,
-      works["2015"],
-      works.force,
-      works.backboned3,
-      works["backboned3_talk"],
-      works["bart_talk"],
-      works["d3intro_talk"],
     ];
 
     var profileStyle = {
@@ -166,7 +160,7 @@ class App extends Component {
           give <span className='king-basil'>talks</span> once in a while.
         </div>
 
-        <Cards data={writingWorks} cardsPerRow={3} {...this.state} />
+        <Cards data={writingWorks} cardsPerRow={2} {...this.state} />
 
         <div className='king-basil' style={forStoryStyle}>
           💖<br />
