@@ -88,6 +88,7 @@ class App extends Component {
       works["80k"],
     ];
     var writingWorks = [
+      works.frontendmasters,
       works["2015"],
       works.force,
       works.backboned3,
@@ -161,7 +162,7 @@ class App extends Component {
 
         <div style={forWritingStyle}>
           🎊<br />
-          I also <span className='king-basil'>write</span> and<br />
+          I also <span className='king-basil'>write</span>, <span className='king-basil'>teach</span>, and<br />
           give <span className='king-basil'>talks</span> once in a while.
         </div>
 

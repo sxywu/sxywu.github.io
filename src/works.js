@@ -19,6 +19,7 @@ import backboned3Image from './images/backboned3.png';
 import backboned3talkImage from './images/backboned3_talk.png';
 import barttalkImage from './images/bart_talk.png';
 import d3introImage from './images/d3intro_talk.png';
+import femImage from './images/fem.png';
 
 export default {
   "product": {
@@ -423,9 +424,29 @@ A talk explaining the motivations behind my BART strike visualization, and what 
 Explains data-binding and the enter-exit-update pattern.
       `
     ],
+
     "buttons": [
       [
         ["View", "http://sxywu.com/d3intro/"],
+      ]
+    ],
+  },
+
+  "frontendmasters": {
+    "id": "frontendmasters",
+    "title": "Frontend Masters",
+    "type": "talk",
+    "images": [femImage, "top"],
+    "annotations": [
+      `
+### Frontend Masters
+#### Intro to Data Visualization with D3.js V4
+      `
+    ],
+
+    "buttons": [
+      [
+        ["Watch", "https://frontendmasters.com/courses/d3-v4/"],
       ]
     ],
   },
