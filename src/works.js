@@ -111,7 +111,7 @@ Analyzing 21,000 words for relational and thematic insights.
     "images": [debateImage, "top"],
     "annotations": [
       `
-### The Political Brain
+### THE POLITICAL BRAIN
 How the final presidential debate played on the subconscious minds of voters.
 
 ##### *built with D3.js, and React.js, for [BRAINSIGHTS](http://brainsights.ca/).*
