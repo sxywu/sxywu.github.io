@@ -371,13 +371,51 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
     "images": null,
     "annotations": [
       `
-  ### Upcoming
+### Upcoming
 
 [Metis: Data Visualization with D3.js](https://www.thisismetis.com/data-visualization-with-d3) // San Francisco, CA // June 5-July 19, 2017
 
-[React Rally](http://www.reactrally.com/) // Salt Lake City, UT // August 24-25, 2017
+[React Rally 2017](http://www.reactrally.com/) // Salt Lake City, UT // August 24-25, 2017
 
-[Reactive Conf](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
+[Reactive Conf 2017](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
+
+### Past
+
+[CSSConf EU 2017](http://2017.cssconf.eu/speakers/shirley-wu.html) // Berlin, Germany // May 5, 2017
+
+[Openvis Conf 2017](https://openvisconf.com/#videos) // Boston, MA // April 24, 2017
+
+[Visualizing Hamilton](http://sxywu.com/hamilton-talk/#/intro) // San Francisco, CA & Los Gatos, CA // March 7 & 14, 2017
+
+[Openvis Conf 2016](https://www.youtube.com/watch?v=fnp9g29lF8c) // Boston, MA // April 25, 2016
+
+[BackboneConf 2014](https://www.youtube.com/watch?v=TqXD0_tGPv8) // Boston, MA // December 15, 2014
+
+### Podcasts & Interviews
+
+[Data Stories: Data Sketches with Nadieh Bremer and Shirley Wu](http://datastori.es/98-data-sketches-with-nadieh-bremer-and-shirley-wu/) // May 17, 2017
+
+[Toolsday: Data Sketches](http://toolsday.io/episodes/datasketches.html) // May 16, 2017
+
+[Animation in Dataviz – An Interview with Nadieh Bremer and Shirley Wu](http://valhead.com/2017/04/27/animation-in-dataviz-data-sketches/) // April 27th, 2017
+
+[Elsie Cast: Data Visualization](https://elsiepod.wordpress.com/2017/02/13/episode-10-data-visualization/) // February 13, 2017
+
+[Modern Web: Data Visualization on the Web with DataSketches](https://modernweb.podbean.com/e/s04e01-d3/) // December 1, 2016
+
+### Blog Posts
+
+[2015, A Year in Review](https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1) // January 15, 2016
+
+[On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3) // July 13, 2015
+
+[Understanding the Force](https://medium.com/@sxywu/understanding-the-force-ef1237017d5) // July 22, 2014
+
+[An Interactive Introduction to D3.js](http://sxywu.com/d3intro/) // July 18, 2014
+
+[Marrying Backbone.js and D3.js, a Follow-up](https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a-follow-up-b6a62a9731e1) // July 5, 2014
+
+[Marrying Backbone.js and D3.js](https://medium.com/@sxywu/marrying-backbone-js-and-d3-js-a7c9c124579e) // May 9, 2013
       `
     ],
     "buttons": [[]]
