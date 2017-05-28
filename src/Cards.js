@@ -39,7 +39,6 @@ class Cards extends Component {
         display: 'inline-block',
         verticalAlign: 'top',
         marginRight: i < (cardsPerRow - 1) ? margin : 0,
-        marginBottom: this.props.margin,
       };
 
       return (

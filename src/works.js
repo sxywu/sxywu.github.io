@@ -364,6 +364,24 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
     ],
   },
 
+  "upcoming": {
+    "id": "upcoming",
+    "title": "data sketch|es: a Nadieh & Shirley collaboration",
+    "type": "TALK",
+    "images": null,
+    "annotations": [
+      `
+  ### Upcoming
+
+[Metis: Data Visualization with D3.js](https://www.thisismetis.com/data-visualization-with-d3) // San Francisco, CA // June 5-July 19, 2017
+
+[React Rally](http://www.reactrally.com/) // Salt Lake City, UT // August 24-25, 2017
+
+[Reactive Conf](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
+      `
+    ],
+    "buttons": [[]]
+  },
 
   "profile":
       `

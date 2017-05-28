@@ -162,6 +162,7 @@ class App extends Component {
         </div>
 
         <Cards data={writingWorks} cardsPerRow={2} {...this.state} />
+        <Card {...works.upcoming} {...this.state} />
 
         <div className='king-basil' style={forStoryStyle}>
           💖<br />
