@@ -14,6 +14,7 @@ import visfestImage from './images/visfest.png';
 import expensesImage from './images/expenses.png';
 import eightykImage from './images/80k.png';
 import femImage from './images/fem.png';
+import openvisImage from './images/openvis.png';
 
 export default {
   "product": {
@@ -330,7 +331,7 @@ Projected annual income and cost of living for a BART employee, depending on the
     "images": [femImage, "top"],
     "annotations": [
       `
-### Frontend Masters: Introduction to Data Visualization with D3.js V4
+### Frontend Masters
 
 A one-day workshop with Frontend Masters, where I go through the core concepts of D3 and walk the audience through creating charts from start to finish.
       `
@@ -342,6 +343,27 @@ A one-day workshop with Frontend Masters, where I go through the core concepts o
       ]
     ],
   },
+
+  "openvis2017": {
+    "id": "openvis2017",
+    "title": "OpenVis Conf 2017",
+    "type": "talk",
+    "images": [openvisImage, "top"],
+    "annotations": [
+      `
+### OpenVis Conf 2017
+
+Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, the challenges we overcame, and the lessons we learned.
+      `
+    ],
+
+    "buttons": [
+      [
+        ["Watch", "https://www.youtube.com/watch?v=4EOG7KwFspk"],
+      ]
+    ],
+  },
+
 
   "profile":
       `
