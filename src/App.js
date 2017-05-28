@@ -9,7 +9,7 @@ import works from './works';
 import Cards from './Cards';
 import Card from './Card';
 
-var md = new Remarkable();
+var md = new Remarkable({linkTarget: '_new'});
 
 var colors = {
   white: '#fff',
@@ -101,6 +101,7 @@ class App extends Component {
       padding: this.state.padding,
       marginBottom: this.state.margin / 2,
       textAlign: 'center',
+      lineHeight: 1.6,
     };
     var originStory = { __html: md.render(works.profile) };
 
