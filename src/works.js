@@ -373,13 +373,17 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
       `
 ### Upcoming
 
-[Metis: Data Visualization with D3.js](https://www.thisismetis.com/data-visualization-with-d3) // San Francisco, CA // June 5-July 19, 2017
-
 [React Rally 2017](http://www.reactrally.com/) // Salt Lake City, UT // August 24-25, 2017
+
+[Reasons To 2017](https://reasons.to/2017/brighton) (elevator pitch) // Brighton, UK // September 4-6, 2017
+
+[ReactNext 2017](http://react-next.com/) // Tel Aviv, Israel // September 10, 2017
 
 [Reactive Conf 2017](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
 
 ### Past
+
+[Metis: Data Visualization with D3.js](https://www.thisismetis.com/data-visualization-with-d3) // San Francisco, CA // June 5-July 19, 2017
 
 [CSSConf EU 2017](http://2017.cssconf.eu/speakers/shirley-wu.html) // Berlin, Germany // May 5, 2017
 
