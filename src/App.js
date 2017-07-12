@@ -131,7 +131,7 @@ class App extends Component {
           and I build <span className='king-basil'>data visualizations</span>.
         </div>
 
-        <div className='king-basil' style={forStyle}>
+        <div className='king-basil' style={forStyle} id='story'>
           ✨<br />
           for story,<br />
           for exploration.
@@ -141,7 +141,7 @@ class App extends Component {
         <Card {...works.datasketches} {...this.state} />
         <Cards data={experimentWorks2} cardsPerRow={2} {...this.state} />
 
-        <div className='king-basil' style={forStyle}>
+        <div className='king-basil' style={forStyle} id='product'>
           ✨<br />
           for product.
         </div>
@@ -149,14 +149,14 @@ class App extends Component {
         <Card {...works.product} {...this.state} />
         <Card {...works.reactd3} {...this.state} />
 
-        <div className='king-basil' style={forStyle}>
+        <div className='king-basil' style={forStyle} id='fun'>
           ✨<br />
           for fun.
         </div>
 
         <Cards data={funWorks} cardsPerRow={2} {...this.state} />
 
-        <div style={forWritingStyle}>
+        <div style={forWritingStyle} id='talks'>
           🎊<br />
           I also <span className='king-basil'>write</span>, <span className='king-basil'>teach</span>, and<br />
           give <span className='king-basil'>talks</span> once in a while.
@@ -165,7 +165,7 @@ class App extends Component {
         <Cards data={writingWorks} cardsPerRow={2} {...this.state} />
         <Card {...works.upcoming} {...this.state} />
 
-        <div className='king-basil' style={forStoryStyle}>
+        <div className='king-basil' style={forStoryStyle} id='origin'>
           💖<br />
           origin story.
         </div>
