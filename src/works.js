@@ -371,23 +371,27 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
     "images": null,
     "annotations": [
       `
+[ShirleyChats](https://www.youtube.com/watch?v=AqNn9jEtARE&list=PL1J8Fh6-iQxI9Yfr44TirO77UShmh4XxB): a series of live chats with friends in the data visualization and tech industries.
+
 ### Upcoming
-
-[React Rally 2017](http://www.reactrally.com/) // Salt Lake City, UT // August 24-25, 2017
-
-[Reasons To 2017](https://reasons.to/2017/brighton) (elevator pitch) // Brighton, UK // September 4-6, 2017
-
-[ReactNext 2017](http://react-next.com/) // Tel Aviv, Israel // September 10, 2017
 
 [Reactive Conf 2017](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
 
+[Tokyo Node Festival 2017](http://nodefest.jp/2017/) // Tokyo, Japan // November 25-27, 2017
+
+[JSConf Asia 2018](https://2018.jsconf.asia/) // Singapore // January 25-27, 2018
+
 ### Past
 
-[Metis: Data Visualization with D3.js](https://www.thisismetis.com/data-visualization-with-d3) // San Francisco, CA // June 5-July 19, 2017
+[ReactNext 2017](https://www.youtube.com/watch?v=w493jXg5D8o) // Tel Aviv, Israel // September 10, 2017
 
-[CSSConf EU 2017](http://2017.cssconf.eu/speakers/shirley-wu.html) // Berlin, Germany // May 5, 2017
+[Reasons To 2017](https://reasons.to/2017/brighton) (elevator pitch) // Brighton, UK // September 4-6, 2017
 
-[Openvis Conf 2017](https://openvisconf.com/#videos) // Boston, MA // April 24, 2017
+[React Rally 2017](https://www.youtube.com/watch?v=ladXdJ3KKd4) // Salt Lake City, UT // August 24-25, 2017
+
+[CSSConf EU 2017](https://www.youtube.com/watch?v=nuboC-FLwGM) // Berlin, Germany // May 5, 2017
+
+[Openvis Conf 2017](https://www.youtube.com/watch?v=4EOG7KwFspk) // Boston, MA // April 24, 2017
 
 [Visualizing Hamilton](http://sxywu.com/hamilton-talk/#/intro) // San Francisco, CA & Los Gatos, CA // March 7 & 14, 2017
 
@@ -396,6 +400,14 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
 [BackboneConf 2014](https://www.youtube.com/watch?v=TqXD0_tGPv8) // Boston, MA // December 15, 2014
 
 ### Podcasts & Interviews
+
+[Data is Beautiful Subreddit: Ask Me Anything!](https://www.reddit.com/r/dataisbeautiful/comments/75q0qi/im_shirley_wu_freelance_data_visualization/) // October 12, 2017
+
+[Frontend Masters Path to Mastery: Saying Yes to Challenges](https://frontendmasters.com/sale/?wvideo=tgl2w96cqc) // September 14, 2017
+
+[Quick Questions with Shirley Wu](https://medium.com/@Matt24Ray_74743/qq-with-shirley-wu-junior-edition-df3f6316d839) // August 12, 2017
+
+[Frontend Happy Hour: Plotting our drinks](http://frontendhappyhour.com/episodes/plotting-our-drinks/) // July 17, 2017
 
 [Data Stories: Data Sketches with Nadieh Bremer and Shirley Wu](http://datastori.es/98-data-sketches-with-nadieh-bremer-and-shirley-wu/) // May 17, 2017
 
@@ -408,6 +420,8 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
 [Modern Web: Data Visualization on the Web with DataSketches](https://modernweb.podbean.com/e/s04e01-d3/) // December 1, 2016
 
 ### Blog Posts
+
+[655 Frustrations Doing Data Visualization](https://medium.com/visualizing-the-field/655-frustrations-doing-data-visualization-e1087c8176fc) // September 21, 2017
 
 [2015, A Year in Review](https://medium.com/@sxywu/2015-a-year-in-review-706e845b58a1) // January 15, 2016
 

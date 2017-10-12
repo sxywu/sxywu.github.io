@@ -120,7 +120,7 @@ class App extends Component {
           <img src={logo} role="presentation" />
           <div style={mediaStyle}>
             <h2>💌</h2>
-            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://github.com/sxywu' target='_new'>github</a>
+            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://twitch.tv/sxywu' target='_new'>twitch</a>
           </div>
         </div>
 
