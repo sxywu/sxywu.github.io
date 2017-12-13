@@ -375,13 +375,17 @@ Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, th
 
 ### Upcoming
 
-[Reactive Conf 2017](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
-
-[Tokyo Node Festival 2017](http://nodefest.jp/2017/) // Tokyo, Japan // November 25-27, 2017
+[GDG DevFest 2017](https://devfest2017.gdg-sv.com/) // Mountain View, USA // December 16, 2017
 
 [JSConf Asia 2018](https://2018.jsconf.asia/) // Singapore // January 25-27, 2018
 
+[React Amsterdam 2018](https://react.amsterdam/) // Amsterdam, Netherlands // April 13, 2018
+
 ### Past
+
+[Tokyo Node Festival 2017](http://nodefest.jp/2017/) // Tokyo, Japan // November 25-26, 2017
+
+[Reactive Conf 2017](https://reactiveconf.com/) // Bratislava, Slovakia // October 25-27, 2017
 
 [ReactNext 2017](https://www.youtube.com/watch?v=w493jXg5D8o) // Tel Aviv, Israel // September 10, 2017
 
