@@ -113,6 +113,8 @@ How the final presidential debate played on the subconscious minds of voters.
 A twelve-month collaboration with the brilliant [Nadieh Bremer](https://twitter.com/NadiehBremer) of [Visual Cinnamon](http://www.visualcinnamon.com/).
 
 Each month, we choose a topic and build a visualization by the end of the month; an opportunity to experiment and create.  In the process, we document the trials and successes we faced wrangling the data, sketching, and coding the visualization.
+
+##### 🥇 [Gold](https://www.informationisbeautifulawards.com/news/269-the-winners-unusual) in Unusual, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
       `
     ],
     "buttons": [[["View", "http://www.datasketch.es/"], ["Twitter", "https://twitter.com/datasketches"]]]
