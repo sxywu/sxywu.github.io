@@ -64,10 +64,10 @@ class App extends Component {
     });
 
     var experimentWorks1 = [
+      works.guardian,
       works.culture,
       works.hamilton,
       works.debate,
-      works.obamas,
     ];
     var experimentWorks2 = [
       works.travel,
@@ -125,7 +125,6 @@ class App extends Component {
           </div>
 
           <div style={mediaStyle}>
-            <h2>💌</h2>
             <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://twitch.tv/sxywu' target='_new'>twitch</a>
           </div>
         </div>

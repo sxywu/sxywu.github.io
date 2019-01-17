@@ -4,7 +4,7 @@ import reactd3Image from './images/reactd3.png';
 import cultureImage from './images/culture.png';
 import hamiltonImage from './images/hamilton.png';
 import debateImage from './images/debate.png';
-import obamasImage from './images/obamas.png';
+import guardianImage from './images/guardian.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import wongfuImage from './images/wongfu.png';
@@ -17,6 +17,27 @@ import femImage from './images/fem.png';
 import openvisImage from './images/openvis.png';
 
 export default {
+  "guardian": {
+    "id": "guardian",
+    "title": "Bussed Out",
+    "startDate": "Sep 17, 2017",
+    "endDate": "Dec 21, 2017",
+    "type": "build",
+    "images": [guardianImage, "top"],
+    "annotations": [
+      `
+### BUSSED OUT
+How America moves its homeless.
+
+##### [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of [Best Data Visualization](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018/content/2727), [North American Digital Media Awards](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
+
+##### *built with D3.js and Greensock for [The Guardian](http://guardian.com)*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study"],
+    ]]
+  },
   "culture": {
     "id": "culture",
     "title": "Explore Adventure",
