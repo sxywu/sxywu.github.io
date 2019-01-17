@@ -65,21 +65,13 @@ class App extends Component {
 
     var experimentWorks1 = [
       works.guardian,
-      works.culture,
       works.hamilton,
+      works.culture,
       works.debate,
     ];
     var experimentWorks2 = [
       works.travel,
       works.filmflowers,
-    ];
-    var funWorks = [
-      works.visfest2,
-      works.tweety,
-      works.wongfu,
-      // works.visfest,
-      // works.expenses,
-      works["80k"],
     ];
     var writingWorks = [
       works.frontendmasters,

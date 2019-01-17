@@ -29,9 +29,9 @@ export default {
 ### BUSSED OUT
 How America moves its homeless.
 
-##### [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of [Best Data Visualization](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018/content/2727), [North American Digital Media Awards](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
+##### 🥇 [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of [Best Data Visualization](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018/content/2727), [North American Digital Media Awards](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
 
-##### *built with D3.js and Greensock for [The Guardian](http://guardian.com)*
+##### ⚒ *built with D3.js and Greensock for [The Guardian](http://guardian.com)*
       `
     ],
     "buttons": [[
@@ -50,7 +50,7 @@ How America moves its homeless.
 ### EXPLORE ADVENTURE
 Digging through a decade of Google travel searches.
 
-##### *built with D3.js, React.js, and Greensock for [Google News Lab](https://newslab.withgoogle.com/).*
+##### ⚒ *built with D3.js, React.js, and Greensock for [Google News Lab](https://newslab.withgoogle.com/).*
       `
     ],
     "buttons": [[
@@ -71,7 +71,9 @@ Digging through a decade of Google travel searches.
 ### An Interactive Visualization of Every Line in Hamilton
 Analyzing 21,000 words for relational and thematic insights.
 
-##### *built with D3.js, React.js, and HTML5 Canvas for [The Pudding](https://pudding.cool/).*
+##### 🥇 [Broze](https://www.informationisbeautifulawards.com/news/260-the-winners-arts-entertainment-pop-culture) in Arts, Entertainment & Pop Culture, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+
+##### ⚒ *built with D3.js, React.js, and HTML5 Canvas for [The Pudding](https://pudding.cool/).*
       `
     ],
     "buttons": [[
@@ -92,7 +94,7 @@ Analyzing 21,000 words for relational and thematic insights.
 ### THE POLITICAL BRAIN
 How the final presidential debate played on the subconscious minds of voters.
 
-##### *built with D3.js, and React.js, for [BRAINSIGHTS](http://brainsights.ca/).*
+##### ⚒ *built with D3.js, and React.js, for [BRAINSIGHTS](http://brainsights.ca/).*
       `
     ],
     "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
