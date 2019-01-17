@@ -36,24 +36,18 @@ class App extends Component {
       width: this.state.width,
       margin: 'auto',
     };
-    var headerStyle = {
+    var introStyle = {
+      color: colors.pink,
       textAlign: 'center',
+      fontSize: 24,
+      lineHeight: 1.6,
       backgroundColor: colors.light,
-      padding: this.state.padding,
-      marginBottom: this.state.margin,
+      padding: 2.5 * this.state.padding,
     };
     var mediaStyle = {
+      fontSize: 16,
       color: colors.pink,
       marginTop: 100,
-    };
-    var introStyle = {
-      fontSize: 24,
-      color: colors.pink,
-      textAlign: 'center',
-      lineHeight: '48px',
-      backgroundColor: colors.light,
-      padding: this.state.padding,
-      marginBottom: this.state.margin / 2,
     };
     var forStyle = {
       fontSize: 36,
@@ -105,30 +99,35 @@ class App extends Component {
     };
     var originStory = { __html: md.render(works.profile) };
 
-    var footerStyle = Object.assign(_.clone(headerStyle), {
+    var footerStyle = {
+      textAlign: 'center',
+      backgroundColor: colors.light,
+      padding: this.state.padding,
+      marginBottom: this.state.margin,
       marginBottom: 0,
       color: colors.pink,
-    });
+    };
     var footerMediaStyle = Object.assign(_.clone(mediaStyle), {
       marginTop: 0,
     });
 
-
     return (
       <div className="App" style={style}>
-        <div className="Header" style={headerStyle}>
+        <div style={introStyle}>
           <img src={logo} role="presentation" />
+          <h2 style={{marginBottom: '0px'}}>
+            Hi, my name is <span className='king-basil'>Shirley</span>.
+          </h2>
+          <div>
+            I’m an award-winning creative<br />
+            focused on data-driven<br />
+            <span className='king-basil'>art</span> and <span className='king-basil'>visualizations</span>.
+          </div>
+
           <div style={mediaStyle}>
             <h2>💌</h2>
             <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://twitch.tv/sxywu' target='_new'>twitch</a>
           </div>
-        </div>
-
-        <div style={introStyle}>
-          💖<br />
-          Hi, my name is <span className='king-basil'>Shirley</span>.<br />
-          I’m a freelance software engineer,<br />
-          and I build <span className='king-basil'>data visualizations</span>.
         </div>
 
         <div className='king-basil' style={forStyle} id='story'>
