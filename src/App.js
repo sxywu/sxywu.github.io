@@ -132,28 +132,18 @@ class App extends Component {
 
         <div className='king-basil' style={forStyle} id='story'>
           ✨<br />
-          for story,<br />
-          for exploration.
+          for story.
         </div>
 
         <Cards data={experimentWorks1} cardsPerRow={2} {...this.state} />
-        <Card {...works.datasketches} {...this.state} />
-        <Cards data={experimentWorks2} cardsPerRow={2} {...this.state} />
 
         <div className='king-basil' style={forStyle} id='product'>
           ✨<br />
-          for product.
+          for<br />exploration.
         </div>
 
-        <Card {...works.product} {...this.state} />
-        <Card {...works.reactd3} {...this.state} />
-
-        <div className='king-basil' style={forStyle} id='fun'>
-          ✨<br />
-          for fun.
-        </div>
-
-        <Cards data={funWorks} cardsPerRow={2} {...this.state} />
+        <Card {...works.datasketches} {...this.state} />
+        <Cards data={experimentWorks2} cardsPerRow={2} {...this.state} />
 
         <div style={forWritingStyle} id='talks'>
           🎊<br />

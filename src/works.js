@@ -17,49 +17,6 @@ import femImage from './images/fem.png';
 import openvisImage from './images/openvis.png';
 
 export default {
-  "product": {
-    "id": "product",
-    "title": "Building Data Visualizations for Product",
-    "startDate": "Apr 25, 2016",
-    "type": "talk",
-    "annotationHeight": 350,
-    "images": [productImage, "left", 230, 350],
-    "annotations": [
-      `
-### OpenVis Conf 2016
-For two and a half years, I worked at Illumio on a part of the product called Illumination - a visualization of application traffic, and a tool for securing it. I helped build it up from scratch, starting from a d3 force layout, to architecting a refactor from Backbone to React, to scaling it to meet the demands of our customers' large environments.
-
-This is the talk I gave at OpenVis Conf about my experiences, the challenges we faced, and the lessons we learned.
-      `
-    ],
-    "buttons": [[["Watch", "https://www.youtube.com/watch?v=fnp9g29lF8c"]]]
-  },
-
-  "reactd3": {
-    "id": "reactd3",
-    "title": "On D3, React, and a little bit of Flux",
-    "startDate": "Jul 13, 2015",
-    "type": "write",
-    "annotationHeight": 350,
-    "images": [reactd3Image, "right", 288, 350],
-    "annotations": [
-      `
-### On D3, React, and a little bit of Flux
-For a more technical writeup of some of the challenges we faced, I wrote a more detailed account of how we moved from Backbone to React. It also covers the difficulties we faced pairing React with D3, and provides an example app to demonstrate our approach.
-      `,
-      `
-I also gave a talk about the three different approaches I have experimented with using React and D3 together.
-      `
-    ],
-    "buttons": [
-      [
-        ["Read", "https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3#.45ai7qjrd"],
-        ["Demo", "http://sxywu.com/expenses"]
-      ],
-      [["Read", "http://slides.com/shirleywu/deck#/"]]
-    ]
-  },
-
   "culture": {
     "id": "culture",
     "title": "Explore Adventure",
@@ -118,27 +75,6 @@ How the final presidential debate played on the subconscious minds of voters.
       `
     ],
     "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
-  },
-
-  "obamas": {
-    "id": "obamas",
-    "title": "Putting Emojis on the President's Face",
-    "startDate": "Oct 8, 2016",
-    "endDate": "Nov 8, 2016",
-    "type": "build",
-    "images": [obamasImage, "top"],
-    "annotations": [
-      `
-### Putting Emojis on the President's Face
-The number of times POTUS and FLOTUS laughed on late-night.
-
-##### *built with D3.js, React.js, Google Cloud, and a bunch of Node packages for October Data Sketch|es.*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://sxywu.com/obamas/"],
-      ["Read", "http://www.datasketch.es/october/"]
-    ]]
   },
 
   "datasketches": {
@@ -201,129 +137,6 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
     ]]
   },
 
-  "wongfu": {
-    "id": "wongfu",
-    "title": "Wong Fu & Friends (WIP)",
-    "startDate": "Mar 13, 2014",
-    "endDate": "Apr 17, 2016",
-    "type": "build",
-    "images": [wongfuImage, "top"],
-    "annotations": [
-      `
-### Wong Fu & Friends
-A visualization of the Youtube channel Wong Fu Productions, and their collaborations with other channels over the years.  A work-in-progress.
-
-##### *built with D3.js, React.js, Flux, and the Youtube API.*
-      `
-    ],
-    "buttons": [[["Code", "https://github.com/sxywu/wongfu"]]]
-  },
-
-  "tweety": {
-    "id": "tweety",
-    "title": "tweety",
-    "startDate": "Nov 18, 2015",
-    "endDate": "Dec 22, 2015",
-    "type": "build",
-    "images": [tweetyImage, "bottom"],
-    "annotations": [
-      `
-### Tweety
-A portrait of tweets. Twitter profile pictures in a pointillist fashion, with their latest tweets mapped to each dot. An exercise in HTML5 Canvas.
-
-##### *built with D3.js, React.js, HTML5 Canvas, and the Twitter API.*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://sxywu.com/tweety/"],
-      ["Code", "https://github.com/sxywu/tweety"]
-    ]]
-  },
-
-  "visfest2": {
-    "id": "visfest2",
-    "title": "viSFest block submissions",
-    "startDate": "Oct 3, 2016",
-    "endDate": "Oct 15, 2016",
-    "type": "build",
-    "images": [visfest2Image, "top"],
-    "annotations": [
-      `
-  ### Visfest 2016
-  A visualization of all the bl.ocks submitted to the [2016 D3.Unconf](http://visfest.com/d3unconf-2016/), tesselated as hexagons.
-
-  ##### *built with D3.js.*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://bl.ocks.org/sxywu/raw/82144236b9a920f77e3af1776d265c57/"],
-      ["Code", "http://bl.ocks.org/sxywu/82144236b9a920f77e3af1776d265c57"]
-    ]]
-  },
-
-  "visfest": {
-    "id": "visfest",
-    "title": "viSFest block submissions",
-    "startDate": "Oct 24, 2015",
-    "endDate": "Oct 26, 2015",
-    "type": "build",
-    "images": [visfestImage, "bottom"],
-    "annotations": [
-      `
-### Visfest 2015
-A visualization of all the bl.ocks submitted to the [2015 D3.Unconf](http://visfest.com/d3unconf-2015/), organized by proximity to their most frequently used d3 functions.
-
-##### *built with D3.js.*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://sxywu.com/visfest/"],
-      ["Code", "https://github.com/sxywu/visfest"]
-    ]]
-  },
-
-  "expenses": {
-    "id": "expenses",
-    "title": "A Simple Expense App",
-    "startDate": "Feb 15, 2015",
-    "endDate": "Jul 12, 2015",
-    "type": "build",
-    "images": [expensesImage, "top"],
-    "annotations": [
-      `
-### A Simple Expense App
-An expense-tracking app, built as an example for my blog post [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3#.45ai7qjrd).  Allows user to add, edit, delete, and categorize expenses with an accompanying visual.
-
-##### *built with D3.js, React.js, and Flux.*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://sxywu.com/expenses/"],
-      ["Code", "https://github.com/sxywu/expenses"]
-    ]]
-  },
-
-  "80k": {
-    "id": "80k",
-    "title": "Annual Income and Cost of Living for BART Employees",
-    "startDate": "Oct 2, 2013",
-    "endDate": "Oct 17, 2013",
-    "type": "build",
-    "images": [eightykImage, "bottom"],
-    "annotations": [
-      `
-### 80k
-Projected annual income and cost of living for a BART employee, depending on the negotiated proposals from the 2013 BART strikes.
-
-##### *built with D3.js and Backbone.js*
-      `
-    ],
-    "buttons": [[
-      ["View", "http://sxywu.com/80k"],
-      ["Code", "https://github.com/sxywu/80k"]
-    ]]
-  },
-
   "frontendmasters": {
     "id": "frontendmasters",
     "title": "Frontend Masters",
@@ -340,26 +153,6 @@ A one-day workshop with Frontend Masters, where I go through the core concepts o
     "buttons": [
       [
         ["Watch", "https://frontendmasters.com/courses/d3-v4/"],
-      ]
-    ],
-  },
-
-  "openvis2017": {
-    "id": "openvis2017",
-    "title": "OpenVis Conf 2017",
-    "type": "talk",
-    "images": [openvisImage, "top"],
-    "annotations": [
-      `
-### OpenVis Conf 2017
-
-Nadieh and I go through our favorite Data Sketch|es months, the bugs we made, the challenges we overcame, and the lessons we learned.
-      `
-    ],
-
-    "buttons": [
-      [
-        ["Watch", "https://www.youtube.com/watch?v=4EOG7KwFspk"],
       ]
     ],
   },
