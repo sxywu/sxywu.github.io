@@ -77,7 +77,7 @@ class App extends Component {
     ];
     var writingWorks = [
       works.frontendmasters,
-      works.openvis2017,
+      works.community,
     ];
 
     var profileStyle = {

@@ -10,6 +10,7 @@ import legendsImage from './images/legends.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
 import femImage from './images/fem.png';
+import communityImage from './images/community.png';
 import openvisImage from './images/openvis.png';
 
 export default {
@@ -200,6 +201,25 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
     ]]
   },
 
+  "community": {
+    "id": "community",
+    "title": "655 Frustrations Doing Data Visualization",
+    "startDate": "Apr 26, 2017",
+    "endDate": "Sep 21, 2017",
+    "type": "build",
+    "images": [communityImage, "top"],
+    "annotations": [
+      `
+### 655 Frustrations Doing Data Visualization
+An analysis of the [2017 Data Visualization Community Survey](https://medium.com/@Elijah_Meeks/2017-data-visualization-survey-results-40688830b9f2), and a writeup of the areas we as a community can work to better.
+      `
+    ],
+    "buttons": [[
+      ["Read", "https://medium.com/visualizing-the-field/655-frustrations-doing-data-visualization-e1087c8176fc"],
+      ["View", "http://sxywu.com/community/"],
+    ]]
+  },
+
   "frontendmasters": {
     "id": "frontendmasters",
     "title": "Frontend Masters",
@@ -209,13 +229,13 @@ Summer blockbusters reimagined as flowers. An experimentation with color.
       `
 ### Frontend Masters
 
-A one-day workshop with Frontend Masters, where I go through the core concepts of D3 and walk the audience through creating charts from start to finish.
+A series of workshops geared towards frontend developers, taking them from the very basics of D3.js to analyzing and designing their own custom data visualizations.
       `
     ],
 
     "buttons": [
       [
-        ["Watch", "https://frontendmasters.com/courses/d3-v4/"],
+        ["Watch", "https://frontendmasters.com/teachers/shirley-wu/"],
       ]
     ],
   },
