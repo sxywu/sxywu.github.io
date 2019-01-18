@@ -299,6 +299,18 @@ ImageCon 2019 // San Francisco, CA // May 1-2, 2019
 
 ### Podcasts & Interviews
 
+[Fun Fun Function: Data visualization chat](https://www.youtube.com/watch?v=Awnz8x8kcE8) // December 10, 2018
+
+[React Podcast: Data Visualization with Shirley Wu](https://reactpodcast.com/15) // August 7, 2018
+
+[Frontend Happy Hour: Shots to growlers](https://frontendhappyhour.com/episodes/shots-to-growlers-finding-the-right-size-drink/) // June 24, 2018
+
+[Dataviz Today: How to Find Answers in Survey Results](https://dataviztoday.com/shownotes/04) // March 13, 2018
+
+[Frontend Happy Hour: Independent Taste Testing](https://frontendhappyhour.com/episodes/independent-taste-testing/) // January 21, 2018
+
+[Frontend Happy Hour: Champagne ideas and caviar dreams](https://frontendhappyhour.com/episodes/champagne-ideas-and-caviar-dreams/) // October 15, 2017
+
 [Data is Beautiful Subreddit: Ask Me Anything!](https://www.reddit.com/r/dataisbeautiful/comments/75q0qi/im_shirley_wu_freelance_data_visualization/) // October 12, 2017
 
 [Frontend Masters Path to Mastery: Saying Yes to Challenges](https://frontendmasters.com/sale/?wvideo=tgl2w96cqc) // September 14, 2017
@@ -318,6 +330,8 @@ ImageCon 2019 // San Francisco, CA // May 1-2, 2019
 [Modern Web: Data Visualization on the Web with DataSketches](https://modernweb.podbean.com/e/s04e01-d3/) // December 1, 2016
 
 ### Blog Posts
+
+[2018, A Year in Review](https://medium.com/@sxywu/2018-a-year-in-review-ff522258c871) // January 7, 2019
 
 [655 Frustrations Doing Data Visualization](https://medium.com/visualizing-the-field/655-frustrations-doing-data-visualization-e1087c8176fc) // September 21, 2017
 
