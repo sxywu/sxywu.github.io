@@ -249,15 +249,35 @@ A series of workshops geared towards frontend developers, taking them from the v
       `
 [ShirleyChats](https://www.youtube.com/watch?v=AqNn9jEtARE&list=PL1J8Fh6-iQxI9Yfr44TirO77UShmh4XxB): a series of live chats with friends in the data visualization and tech industries.
 
-### Upcoming
+### Upcoming Conferences
 
-[GDG DevFest 2017](https://devfest2017.gdg-sv.com/) // Mountain View, USA // December 16, 2017
+[Malofiej27](http://www.malofiejgraphics.com/) // Pamplona, Spain // March 25-29, 2019
+
+ImageCon 2019 // San Francisco, CA // May 1-2, 2019
+
+[beyond tellerrand 2019](https://beyondtellerrand.com/) // Düsseldorf, Germany // May 13-14, 2019
+
+[J on the Beach 2019](https://jonthebeach.com/) // Marbella, Spain // May 16-17, 2019
+
+[WeAreDevelopers WorldCongress ‘19](https://www.wearedevelopers.com/world-congress/) // Berlin, Germany // June 6-7, 2019
+
+### Past Conferences
+
+[Coldfront Conf 2018](https://2018.coldfront.co/) // Copenhagen, Denmark // November 13-14, 2018
+
+[ChicagoJS 2018](https://chicagojs.org/) // Chicago, IL // September 22, 2018
+
+[React Rally 2018](https://www.youtube.com/watch?v=S1PDU2Ckt5w) // Salt Lake City, UT // August 16-17, 2018
+
+[Concatenate 2018](https://concatenate.io/) // Remote // August 10-11, 2018
+
+[enterJS 2018](https://www.enterjs.de/2018/) // Darmstadt, Germany // June 19-22, 2018
+
+[React Amsterdam 2018](https://www.youtube.com/watch?v=zXBdNDnqV2Q) // Amsterdam, Netherlands // April 13, 2018
 
 [JSConf Asia 2018](https://2018.jsconf.asia/) // Singapore // January 25-27, 2018
 
-[React Amsterdam 2018](https://react.amsterdam/) // Amsterdam, Netherlands // April 13, 2018
-
-### Past
+[GDG DevFest 2017](https://devfest2017.gdg-sv.com/) // Mountain View, USA // December 16, 2017
 
 [Tokyo Node Festival 2017](http://nodefest.jp/2017/) // Tokyo, Japan // November 25-26, 2017
 
@@ -272,8 +292,6 @@ A series of workshops geared towards frontend developers, taking them from the v
 [CSSConf EU 2017](https://www.youtube.com/watch?v=nuboC-FLwGM) // Berlin, Germany // May 5, 2017
 
 [Openvis Conf 2017](https://www.youtube.com/watch?v=4EOG7KwFspk) // Boston, MA // April 24, 2017
-
-[Visualizing Hamilton](http://sxywu.com/hamilton-talk/#/intro) // San Francisco, CA & Los Gatos, CA // March 7 & 14, 2017
 
 [Openvis Conf 2016](https://www.youtube.com/watch?v=fnp9g29lF8c) // Boston, MA // April 25, 2016
 
@@ -331,7 +349,7 @@ And somehow, miraculously, I landed a full-time position at [Splunk](https://www
 
 When I started at [Illumio](https://www.illumio.com/home), I was happy with my technical knowledge, but wanted to apply it and build a long-term project from the ground up.  [Illumination](https://www.illumio.com/services#illumination) allowed me to do that; I learned so much about teamwork, and the joys and pitfalls of building out a piece of the product from its inception.
 
-I left Illumio in the summer of last year, and have been trying my hand at freelancing since.  It's been an amazing (though stressful) ride, and I've had the opportunity to work with companies in a wide variety of industries.  It's been eye-opening to learn about their products, their problem statements, and their philosophies.  I've also had the opportunity to step away from product, and try my hand at narrative and storytelling.
+I left Illumio in the summer of 2016, and have been trying my hand at freelancing since.  It's been an amazing (though stressful) ride, and I've had the opportunity to work with companies in a wide variety of industries.  It's been eye-opening to learn about their products, their problem statements, and their philosophies.  I've also had the opportunity to step away from product, and try my hand at narrative and storytelling.
 
 I'm hoping to keep freelancing for as long as I can.  I'm still excited to see where I go from here.
       `
