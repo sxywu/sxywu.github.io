@@ -63,13 +63,15 @@ class App extends Component {
       color: colors.pink,
     });
 
-    var experimentWorks1 = [
+    var storyWorks = [
       works.guardian,
       works.hamilton,
       works.culture,
       works.debate,
     ];
-    var experimentWorks2 = [
+    var explorationWorks = [
+      works.moma,
+      works.legends,
       works.travel,
       works.filmflowers,
     ];
@@ -126,7 +128,7 @@ class App extends Component {
           for story.
         </div>
 
-        <Cards data={experimentWorks1} cardsPerRow={2} {...this.state} />
+        <Cards data={storyWorks} cardsPerRow={2} {...this.state} />
 
         <div className='king-basil' style={forStyle} id='product'>
           ✨<br />
@@ -134,7 +136,7 @@ class App extends Component {
         </div>
 
         <Card {...works.datasketches} {...this.state} />
-        <Cards data={experimentWorks2} cardsPerRow={2} {...this.state} />
+        <Cards data={explorationWorks} cardsPerRow={2} {...this.state} />
 
         <div style={forWritingStyle} id='talks'>
           🎊<br />

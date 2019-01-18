@@ -5,14 +5,10 @@ import cultureImage from './images/culture.png';
 import hamiltonImage from './images/hamilton.png';
 import debateImage from './images/debate.png';
 import guardianImage from './images/guardian.png';
+import momaImage from './images/moma.png';
+import legendsImage from './images/legends.png';
 import travelImage from './images/travel.png';
 import filmflowersImage from './images/filmflowers.png';
-import wongfuImage from './images/wongfu.png';
-import tweetyImage from './images/tweety.png';
-import visfest2Image from './images/visfest2.png';
-import visfestImage from './images/visfest.png';
-import expensesImage from './images/expenses.png';
-import eightykImage from './images/80k.png';
 import femImage from './images/fem.png';
 import openvisImage from './images/openvis.png';
 
@@ -26,7 +22,7 @@ export default {
     "images": [guardianImage, "top"],
     "annotations": [
       `
-### BUSSED OUT
+### Bussed Out
 How America moves its homeless.
 
 ##### 🥇 [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of [Best Data Visualization](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018/content/2727), [North American Digital Media Awards](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
@@ -94,10 +90,52 @@ Analyzing 21,000 words for relational and thematic insights.
 ### THE POLITICAL BRAIN
 How the final presidential debate played on the subconscious minds of voters.
 
-##### ⚒ *built with D3.js, and React.js, for [BRAINSIGHTS](http://brainsights.ca/).*
+##### ⚒ *built with D3.js, and React.js for [BRAINSIGHTS](http://brainsights.ca/).*
       `
     ],
     "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
+  },
+
+  "moma": {
+    "id": "moma",
+    "title": "Send Me Love",
+    "startDate": "Jan 23, 2018",
+    "endDate": "Jul 10, 2018",
+    "type": "build",
+    "images": [momaImage, "top"],
+    "annotations": [
+      `
+  ### Send Me Love - SFMOMA
+  An exploration of five individuals and their interactions with [Send Me SFMOMA](https://www.sfmoma.org/read/send-me-sfmoma/) for a week.
+
+  ##### ⚒ *built with D3.js, Greensock, and Vue.js for [SFMOMA](https://sfmoma.org).*
+      `
+    ],
+    "buttons": [[
+      ["View", "http://lab.sfmoma.org/send-me-love/#/sendme/love/3"],
+      ["Read", "http://www.datasketch.es/february/"]
+    ]]
+  },
+
+  "legends": {
+    "id": "legends",
+    "title": "Legends",
+    "startDate": "Dec 1, 2018",
+    "endDate": "Dec 23, 2018",
+    "type": "build",
+    "images": [legendsImage, "top"],
+    "annotations": [
+      `
+  ### Legends
+  A 3D visualization of the 51 female Noble Laureates and their accomplishments.
+
+  ##### ⚒ *built with Three.js, WebGL, and Vue.js for [Christmas XP](https://christmasexperiments.com).*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://christmasexperiments.com/2018/23/legends"],
+      ["Read", "http://www.datasketch.es/may/"]
+    ]]
   },
 
   "datasketches": {
@@ -132,7 +170,7 @@ Each month, we choose a topic and build a visualization by the end of the month;
   ### Four Years of Vacations in 20,000 Colors
   4,000 photos over 13 trips, their colors visualized.  Further experimentation in color.
 
-  ##### *built with D3.js, React.js, and HTML5 Canvas, for September Datasketch|es.*
+  ##### ⚒ *built with D3.js, React.js, and HTML5 Canvas for September Datasketch|es.*
       `
     ],
     "buttons": [[
@@ -153,7 +191,7 @@ Each month, we choose a topic and build a visualization by the end of the month;
 ### Film Flowers
 Summer blockbusters reimagined as flowers. An experimentation with color.
 
-##### *built with D3.js, for July Datasketch|es.*
+##### ⚒ *built with D3.js for July Datasketch|es.*
       `
     ],
     "buttons": [[
