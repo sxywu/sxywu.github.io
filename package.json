@@ -6,12 +6,12 @@
     "react-scripts": "1.0.6"
   },
   "dependencies": {
-    "lodash": "^4.16.0",
+    "lodash": "^4.17.15",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "remarkable": "^1.6.2"
   },
-  "homepage" : "http://sxywu.com/",
+  "homepage": "https://sxywu.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
