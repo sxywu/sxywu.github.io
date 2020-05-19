@@ -27,7 +27,9 @@ export default {
 ### People of the Pandemic
 A game that shows how an infectious disease might spread through a community, using real data and real people's decisions whether to stay home each week.
 
-##### ⚒ *built with D3.js, Vue.js, and Greensock*
+##### 🛠 built with D3.js, Vue.js, and Greensock.
+
+##### 💪 responsible for story, data visualization design & development, software architecture.
       `
     ],
     "buttons": [[
@@ -44,11 +46,14 @@ A game that shows how an infectious disease might spread through a community, us
 ### One Amongst Many
 A physical, interactive data installation of women in computing.
 
-##### ⚒ *built with Arduino, Neopixels, and tilt sensors for [NYU ITP Artist Residency](https://tisch.nyu.edu/itp/itp-people/faculty/somethings-in-residence-sirs)*
+##### 🛠 built with Arduino, Neopixels, and tilt sensors for [NYU ITP Artist Residency](https://tisch.nyu.edu/itp/itp-people/faculty/somethings-in-residence-sirs).
+
+##### 💪 responsible for data analysis, Arduino prototype & code, digital analog.
       `
     ],
     "buttons": [[
       ["View", "https://oneamongstmany.com/"],
+      ["Watch", "https://www.youtube.com/watch?v=R5QukTBBRNE"],
       ["Read", "http://www.datasketch.es/june/"]
     ]]
   },
@@ -62,7 +67,9 @@ A physical, interactive data installation of women in computing.
 ### hong kong artists, women
 Highlighting the work of HK women artists and their under-representation online.
 
-##### ⚒ *built with Three.js, WebGL, D3.js, Vue.js, and Greensock for [M+](https://stories.mplus.org.hk/en/interactives/)*
+##### 🛠 built with Three.js, WebGL, D3.js, Vue.js, and Greensock for [M+](https://stories.mplus.org.hk/en/interactives/).
+
+##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
@@ -81,9 +88,11 @@ Highlighting the work of HK women artists and their under-representation online.
 ### Bussed Out
 How America moves its homeless.
 
-##### 🥇 [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of [Best Data Visualization](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018/content/2727), [North American Digital Media Awards](https://events.wan-ifra.org/events/north-american-digital-media-awards-2018) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
+##### 🥇 [Gold](https://www.informationisbeautifulawards.com/news/331-the-winners-politics-global) in Politics & Global, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) // [Silver](http://www.malofiejgraphics.com/wp-content/uploads/2018/03/M26-Awards-List-DEF.pdf) in "Features", [Malofiej](http://www.malofiejgraphics.com/) // Winner of Best Data Visualization, [World Digital Media Awards](https://events.wan-ifra.org/events/world-digital-media-awards/speakers) // Winner of [Investigative Data Journalism](https://awards.journalists.org/entries/bussed-out-how-america-moves-its-homeless/), [Online Journalism Awards](https://awards.journalists.org/)
 
-##### ⚒ *built with D3.js and Greensock for [The Guardian](http://guardian.com)*
+##### 🛠 built with D3.js and Greensock for [The Guardian](http://guardian.com).
+
+##### 💪 responsible for data visualization design & development, web development.
       `
     ],
     "buttons": [[
@@ -102,7 +111,9 @@ How America moves its homeless.
 ### EXPLORE ADVENTURE
 Digging through a decade of Google travel searches.
 
-##### ⚒ *built with D3.js, React.js, and Greensock for [Google News Lab](https://newslab.withgoogle.com/).*
+##### 🛠 built with D3.js, React.js, and Greensock for [Google News Lab](https://newslab.withgoogle.com/).
+
+##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
@@ -125,7 +136,9 @@ Analyzing 21,000 words for relational and thematic insights.
 
 ##### 🥇 [Broze](https://www.informationisbeautifulawards.com/news/260-the-winners-arts-entertainment-pop-culture) in Arts, Entertainment & Pop Culture, [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 
-##### ⚒ *built with D3.js, React.js, and HTML5 Canvas for [The Pudding](https://pudding.cool/).*
+##### 🛠 built with D3.js, React.js, and HTML5 Canvas for [The Pudding](https://pudding.cool/).
+
+##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
@@ -146,7 +159,9 @@ Analyzing 21,000 words for relational and thematic insights.
 ### THE POLITICAL BRAIN
 How the final presidential debate played on the subconscious minds of voters.
 
-##### ⚒ *built with D3.js, and React.js for [BRAINSIGHTS](http://brainsights.ca/).*
+##### 🛠 built with D3.js, and React.js for [BRAINSIGHTS](http://brainsights.ca/).
+
+##### 💪 responsible for everything.
       `
     ],
     "buttons": [[["View", "http://politics.andyourbrain.com/debate/"]]]
@@ -164,11 +179,13 @@ How the final presidential debate played on the subconscious minds of voters.
   ### Send Me Love - SFMOMA
   An exploration of five individuals and their interactions with [Send Me SFMOMA](https://www.sfmoma.org/read/send-me-sfmoma/) for a week.
 
-  ##### ⚒ *built with D3.js, Greensock, and Vue.js for [SFMOMA](https://sfmoma.org).*
+  ##### 🛠 built with D3.js, Greensock, and Vue.js for [SFMOMA](https://sfmoma.org).
+
+  ##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
-      ["View", "http://lab.sfmoma.org/send-me-love/#/sendme/love/3"],
+      ["View", "https://send-me-love.com/#/sendme/love/3"],
       ["Read", "http://www.datasketch.es/february/"]
     ]]
   },
@@ -185,7 +202,9 @@ How the final presidential debate played on the subconscious minds of voters.
   ### Legends
   A 3D visualization of the 51 female Noble Laureates and their accomplishments.
 
-  ##### ⚒ *built with Three.js, WebGL, and Vue.js for [Christmas XP](https://christmasexperiments.com).*
+  ##### 🛠 built with Three.js, WebGL, and Vue.js for [Christmas XP](https://christmasexperiments.com).
+
+  ##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
@@ -226,7 +245,9 @@ Each month, we choose a topic and build a visualization by the end of the month;
   ### Four Years of Vacations in 20,000 Colors
   4,000 photos over 13 trips, their colors visualized.  Further experimentation in color.
 
-  ##### ⚒ *built with D3.js, React.js, and HTML5 Canvas for September Datasketch|es.*
+  ##### 🛠 built with D3.js, React.js, and HTML5 Canvas for September Datasketch|es.
+
+  ##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
@@ -247,7 +268,9 @@ Each month, we choose a topic and build a visualization by the end of the month;
 ### Film Flowers
 Summer blockbusters reimagined as flowers. An experimentation with color.
 
-##### ⚒ *built with D3.js for July Datasketch|es.*
+##### 🛠 built with D3.js for July Datasketch|es.
+
+##### 💪 responsible for everything.
       `
     ],
     "buttons": [[
