@@ -121,7 +121,7 @@ class App extends Component {
           </div>
 
           <div style={mediaStyle}>
-            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='http://medium.com/@sxywu' target='_new'>medium</a>  |  <a href='https://twitch.tv/sxywu' target='_new'>twitch</a>
+            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='https://tinyletter.com/sxywu' target='_new'>newsletter</a>
           </div>
         </div>
 
@@ -166,7 +166,7 @@ class App extends Component {
           </div>
           <h2>💌</h2>
           <div style={footerMediaStyle}>
-            <a href='https://www.linkedin.com/in/shirley-xueyang-wu-b71ab022' target='_new'>linkedin</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
+            <a href='https://www.linkedin.com/in/shirleyxywu/' target='_new'>linkedin</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
           </div>
         </div>
 
