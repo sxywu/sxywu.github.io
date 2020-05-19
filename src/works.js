@@ -329,17 +329,23 @@ A series of workshops geared towards frontend developers, taking them from the v
 
 ### Upcoming Conferences
 
-[Malofiej27](http://www.malofiejgraphics.com/) // Pamplona, Spain // March 25-29, 2019
+N/A
 
-ImageCon 2019 // San Francisco, CA // May 1-2, 2019
+### Past Conferences
 
-[beyond tellerrand 2019](https://beyondtellerrand.com/) // Düsseldorf, Germany // May 13-14, 2019
+[JSConf JP 2019](https://jsconf.jp/2019/) // Tokyo, Japan // November 30, December 1, 2019
 
-[J on the Beach 2019](https://jonthebeach.com/) // Marbella, Spain // May 16-17, 2019
+[Web Unleashed 2019](https://fitc.ca/event/webu19/) // Toronto, Canada // September 13-14, 2019
 
 [WeAreDevelopers WorldCongress ‘19](https://www.wearedevelopers.com/world-congress/) // Berlin, Germany // June 6-7, 2019
 
-### Past Conferences
+[J on the Beach 2019](https://jonthebeach.com/) // Marbella, Spain // May 16-17, 2019
+
+[beyond tellerrand 2019](https://beyondtellerrand.com/) // Düsseldorf, Germany // May 13-14, 2019
+
+ImageCon 2019 // San Francisco, CA // May 1-2, 2019
+
+[Malofiej27](http://www.malofiejgraphics.com/) // Pamplona, Spain // March 25-29, 2019
 
 [Coldfront Conf 2018](https://2018.coldfront.co/) // Copenhagen, Denmark // November 13-14, 2018
 
@@ -376,6 +382,36 @@ ImageCon 2019 // San Francisco, CA // May 1-2, 2019
 [BackboneConf 2014](https://www.youtube.com/watch?v=TqXD0_tGPv8) // Boston, MA // December 15, 2014
 
 ### Podcasts & Interviews
+
+[Nightingale: How Do You Simulate a Pandemic?](https://medium.com/nightingale/how-do-you-simulate-a-pandemic-a-conversation-with-data-designers-shirley-wu-and-stephen-osserman-8147c94f4ba0) // May 15, 2020
+
+[Dataviz Today: How to Find New Collaborators and Execute a Complex Project](https://dataviztoday.com/shownotes/54) // May 5, 2020
+
+[Tableau: Social distancing, three data-driven simulations will show you just how important it is](https://www.tableau.com/about/blog/2020/4/social-distancing-three-data-driven-simulations-will-show-you-just-how-important) // May 5, 2020
+
+[Learn with Jason: Generative Data Visualization, part 3](https://www.learnwithjason.dev/generative-data-visualization-part-3) // April 14, 2020
+
+[Tech+Art Podcast: Shirley Wu, Software Engineer & Data Visualization Freelancer](https://www.maketechart.com/techart-podcast-shirley-wu-software-engineer-data-visualization-freelancer/) // March 26, 2020
+
+[egghead.io: How Shirley Wu Built A Career As A Freelance Data Visualizer](https://egghead.io/podcasts/how-shirley-wu-built-a-career-as-a-freelance-data-visualizer) // March 17, 2020
+
+[Nextstrain Onboarding with Colin Megill](https://www.youtube.com/watch?v=0XZWZHLm7w0&list=PL1J8Fh6-iQxIeYUmeKHsyHP0c3LcY8Wyh) // March 13, 2020
+
+[The Entrepreneurial Coder Podcast: How To Be A Successful Niche Freelancer](https://share.transistor.fm/s/82ae2bc6) // January 21, 2020
+
+[The Coding Train: Introduction to D3.js with Shirley Wu](https://www.youtube.com/watch?v=rQroxWLZiCo) // November 15, 2019
+
+[Learn with Jason: Generative Data Visualization Design and Planning, part 2](https://www.learnwithjason.dev/generative-data-visualization-design-and-planning-part-2) // November 8, 2019
+
+[Learn with Jason: Generative Data Visualization Design and Planning](https://www.learnwithjason.dev/generative-data-visualization-design-and-planning) // October 15, 2019
+
+[Chats with Kent: Lessons Learned From Four Major Projects with Shirley Wu](https://kentcdodds.com/chats-with-kent-podcast/seasons/01/episodes/lessons-learned-from-four-major-projects-with-shirley-wu) // August 8, 2019
+
+[Frontend Happy Hour: The art of mixology - creative coding](https://frontendhappyhour.com/episodes/the-art-of-mixology-creative-coding/) // August 4, 2019
+
+[net August 2019: Voices Interview](https://www.myfavouritemagazines.co.uk/design/net-magazine-back-issues/net-august-2019-issue-321/) // August 2019
+
+[Data Visualization: A Lesson and Listen Series](https://www.linkedin.com/learning/data-visualization-a-lesson-and-listen-series/lesson-unicorns) // April 5, 2019
 
 [Fun Fun Function: Data visualization chat](https://www.youtube.com/watch?v=Awnz8x8kcE8) // December 10, 2018
 
