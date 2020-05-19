@@ -1,6 +1,9 @@
 import productImage from './images/product.png';
 import reactd3Image from './images/reactd3.png';
 // import datasketchesImage from './images/datasketches.png';
+import pandemicImage from './images/pandemic.png'
+import mplusImage from './images/mplus.png'
+import graceImage from './images/grace.png'
 import cultureImage from './images/culture.png';
 import hamiltonImage from './images/hamilton.png';
 import debateImage from './images/debate.png';
@@ -14,6 +17,58 @@ import communityImage from './images/community.png';
 import openvisImage from './images/openvis.png';
 
 export default {
+  "pandemic": {
+    "id": "pandemic",
+    "title": "People of the Pandemic",
+    "type": "build",
+    "images": [pandemicImage, "top"],
+    "annotations": [
+      `
+### People of the Pandemic
+A game that shows how an infectious disease might spread through a community, using real data and real people's decisions whether to stay home each week.
+
+##### ⚒ *built with D3.js, Vue.js, and Greensock*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://peopleofthepandemicgame.com/"]
+    ]]
+  },
+  "grace": {
+    "id": "grace",
+    "title": "One Amongst Many",
+    "type": "build",
+    "images": [graceImage, "top"],
+    "annotations": [
+      `
+### One Amongst Many
+A physical, interactive data installation of women in computing.
+
+##### ⚒ *built with Arduino, Neopixels, and tilt sensors for [NYU ITP Artist Residency](https://tisch.nyu.edu/itp/itp-people/faculty/somethings-in-residence-sirs)*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://oneamongstmany.com/"],
+      ["Read", "http://www.datasketch.es/june/"]
+    ]]
+  },
+  "mplus": {
+    "id": "mplus",
+    "title": "hong kong artists, women",
+    "type": "build",
+    "images": [mplusImage, "top"],
+    "annotations": [
+      `
+### hong kong artists, women
+Highlighting the work of HK women artists and their under-representation online.
+
+##### ⚒ *built with Three.js, WebGL, D3.js, Vue.js, and Greensock for [M+](https://stories.mplus.org.hk/en/interactives/)*
+      `
+    ],
+    "buttons": [[
+      ["View", "https://hkartistswomen.com/"],
+    ]]
+  },
   "guardian": {
     "id": "guardian",
     "title": "Bussed Out",

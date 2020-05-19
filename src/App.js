@@ -64,12 +64,14 @@ class App extends Component {
     });
 
     var storyWorks = [
+      works.pandemic,
       works.guardian,
       works.hamilton,
       works.culture,
-      works.debate,
     ];
     var explorationWorks = [
+      works.grace,
+      works.mplus,
       works.moma,
       works.legends,
       works.travel,
