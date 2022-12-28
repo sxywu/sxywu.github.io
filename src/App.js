@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
-import _ from 'lodash';
-import Remarkable from 'remarkable';
+import React, { Component } from "react";
+import _ from "lodash";
+import Remarkable from "remarkable";
 
-import logo from './images/logo.png';
-import profileImage from './images/profile.png';
-import works from './works';
+import logo from "./images/logo.png";
+import profileImage from "./images/profile.png";
+import works from "./works";
 
-import Cards from './Cards';
-import Card from './Card';
+import Cards from "./Cards";
+import Card from "./Card";
 
-var md = new Remarkable({linkTarget: '_new'});
+var md = new Remarkable({ linkTarget: "_new" });
 
 var colors = {
-  white: '#fff',
-  light: '#fafbfc',
-  dark: '#44535d',
-  blue: '#51aae8',
-  pink: '#e68fc3',
-  gold: '#f7cd83',
+  white: "#fff",
+  light: "#fafbfc",
+  dark: "#44535d",
+  blue: "#51aae8",
+  pink: "#e68fc3",
+  gold: "#f7cd83",
 };
 
 class App extends Component {
@@ -34,11 +34,11 @@ class App extends Component {
   render() {
     var style = {
       width: this.state.width,
-      margin: 'auto',
+      margin: "auto",
     };
     var introStyle = {
       color: colors.pink,
-      textAlign: 'center',
+      textAlign: "center",
       fontSize: 24,
       lineHeight: 1.6,
       backgroundColor: colors.light,
@@ -52,7 +52,7 @@ class App extends Component {
     var forStyle = {
       fontSize: 36,
       color: colors.blue,
-      textAlign: 'center',
+      textAlign: "center",
       padding: this.state.padding,
       marginBottom: this.state.margin / 2,
     };
@@ -77,10 +77,7 @@ class App extends Component {
       works.travel,
       works.filmflowers,
     ];
-    var writingWorks = [
-      works.frontendmasters,
-      works.community,
-    ];
+    var writingWorks = [works.frontendmasters, works.community];
 
     var profileStyle = {
       width: 150,
@@ -90,13 +87,13 @@ class App extends Component {
       backgroundColor: colors.light,
       padding: this.state.padding,
       marginBottom: this.state.margin / 2,
-      textAlign: 'center',
+      textAlign: "center",
       lineHeight: 1.6,
     };
     var originStory = { __html: md.render(works.profile) };
 
     var footerStyle = {
-      textAlign: 'center',
+      textAlign: "center",
       backgroundColor: colors.light,
       padding: this.state.padding,
       marginBottom: this.state.margin,
@@ -111,68 +108,91 @@ class App extends Component {
       <div className="App" style={style}>
         <div style={introStyle}>
           <img src={logo} role="presentation" />
-          <h2 style={{marginBottom: '0px'}}>
-            Hi, my name is <span className='king-basil'>Shirley</span>.
+          <h2 style={{ marginBottom: "0px" }}>
+            Hi, my name is <span className="king-basil">Shirley</span>.
           </h2>
           <div>
-            I’m an award-winning creative<br />
-            focused on data-driven<br />
-            <span className='king-basil'>art</span> and <span className='king-basil'>visualizations</span>.
+            I’m an award-winning creative
+            <br />
+            focused on data-driven
+            <br />
+            <span className="king-basil">art</span> and{" "}
+            <span className="king-basil">visualizations</span>.
           </div>
 
           <div style={mediaStyle}>
-            <a href='http://twitter.com/sxywu' target='_new'>twitter</a>  |  <a href='https://tinyletter.com/sxywu' target='_new'>newsletter</a>
+            <a href="https://www.instagram.com/shirleywu.studio/" target="_new">
+              instagram
+            </a>{" "}
+            |{" "}
+            <a href="http://twitter.com/sxywu" target="_new">
+              twitter
+            </a>{" "}
+            |{" "}
+            <a href="https://tinyletter.com/sxywu" target="_new">
+              newsletter
+            </a>
           </div>
         </div>
 
-        <div className='king-basil' style={forStyle} id='story'>
+        <div className="king-basil" style={forStyle} id="story">
           ✨<br />
           for story.
         </div>
 
         <Cards data={storyWorks} cardsPerRow={2} {...this.state} />
 
-        <div className='king-basil' style={forStyle} id='product'>
+        <div className="king-basil" style={forStyle} id="product">
           ✨<br />
-          for<br />exploration.
+          for
+          <br />
+          exploration.
         </div>
 
         <Card {...works.datasketches} {...this.state} />
         <Cards data={explorationWorks} cardsPerRow={2} {...this.state} />
 
-        <div style={forWritingStyle} id='talks'>
-          🎊<br />
-          I also <span className='king-basil'>write</span>, <span className='king-basil'>teach</span>, and<br />
-          give <span className='king-basil'>talks</span> once in a while.
+        <div style={forWritingStyle} id="talks">
+          🎊
+          <br />I also <span className="king-basil">write</span>,{" "}
+          <span className="king-basil">teach</span>, and
+          <br />
+          give <span className="king-basil">talks</span> once in a while.
         </div>
 
         <Cards data={writingWorks} cardsPerRow={2} {...this.state} />
         <Card {...works.upcoming} {...this.state} />
 
-        <div className='king-basil' style={forStoryStyle} id='origin'>
-          💖<br />
+        <div className="king-basil" style={forStoryStyle} id="origin">
+          💖
+          <br />
           origin story.
         </div>
 
         <div style={originStyle}>
           <img style={profileStyle} src={profileImage} role="presentation" />
-          <div style={{textAlign: 'left'}} dangerouslySetInnerHTML={originStory} />
+          <div
+            style={{ textAlign: "left" }}
+            dangerouslySetInnerHTML={originStory}
+          />
         </div>
 
-        <div className='Footer' style={footerStyle}>
-          <div className='king-basil' style={forStoryStyle}>
-            let’s<br />
+        <div className="Footer" style={footerStyle}>
+          <div className="king-basil" style={forStoryStyle}>
+            let’s
+            <br />
             work together.
           </div>
           <h2>💌</h2>
           <div style={footerMediaStyle}>
-            <a href='https://www.linkedin.com/in/shirleyxywu/' target='_new'>linkedin</a>  |  <a href='mailto:shirleyxueyangwu@gmail.com' target='_new'>email</a>
+            <a href="mailto:hi@shirleywu.studio" target="_new">
+              email
+            </a>
           </div>
         </div>
-
       </div>
     );
   }
-};
+}
 
 export default App;
