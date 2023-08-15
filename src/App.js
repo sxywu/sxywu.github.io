@@ -129,7 +129,7 @@ class App extends Component {
               twitter
             </a>{" "}
             |{" "}
-            <a href="https://tinyletter.com/sxywu" target="_new">
+            <a href="https://shirleywu.substack.com/" target="_new">
               newsletter
             </a>
           </div>
